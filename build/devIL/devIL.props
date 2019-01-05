@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>./;../../src/DevIL\devil-1.7.8\src-IL\include;../../src/DevIL\devil-1.7.8\src-ILU\include;../../src/libpng/lpng1617;../../src\libmng\libmng-2.0.3;../../src\libtiff\tiff-4.0.3/libtiff;../../src\jpeg/jpeg-9a;../../src\jasper\jasper-1.900.1\src\libjasper\include;../../src\lcms\lcms2-2.7\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>LCMS_NODIRINCLUDE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

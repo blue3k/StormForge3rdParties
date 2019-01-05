@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{838095BE-FC88-46EB-B2D2-447A0854A667}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libmng\libmng-2.0.3\config.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libmng\libmng-2.0.3\libmng.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libmng\libmng-2.0.3\libmng_chunks.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libmng\libmng-2.0.3\libmng_chunk_descr.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libmng\libmng-2.0.3\libmng_chunk_io.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libmng\libmng-2.0.3\libmng_chunk_prc.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libmng\libmng-2.0.3\libmng_cms.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libmng\libmng-2.0.3\libmng_conf.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libmng\libmng-2.0.3\libmng_data.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libmng\libmng-2.0.3\libmng_display.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libmng\libmng-2.0.3\libmng_dither.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libmng\libmng-2.0.3\libmng_error.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libmng\libmng-2.0.3\libmng_filter.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libmng\libmng-2.0.3\libmng_jpeg.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libmng\libmng-2.0.3\libmng_memory.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libmng\libmng-2.0.3\libmng_objects.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libmng\libmng-2.0.3\libmng_object_prc.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libmng\libmng-2.0.3\libmng_pixels.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libmng\libmng-2.0.3\libmng_read.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libmng\libmng-2.0.3\libmng_trace.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libmng\libmng-2.0.3\libmng_types.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libmng\libmng-2.0.3\libmng_write.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libmng\libmng-2.0.3\libmng_zlib.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libmng\libmng-2.0.3\libmng_callback_xs.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libmng\libmng-2.0.3\libmng_chunk_descr.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libmng\libmng-2.0.3\libmng_chunk_io.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libmng\libmng-2.0.3\libmng_chunk_prc.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libmng\libmng-2.0.3\libmng_chunk_xs.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libmng\libmng-2.0.3\libmng_cms.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libmng\libmng-2.0.3\libmng_display.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libmng\libmng-2.0.3\libmng_dither.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libmng\libmng-2.0.3\libmng_error.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libmng\libmng-2.0.3\libmng_filter.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libmng\libmng-2.0.3\libmng_hlapi.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libmng\libmng-2.0.3\libmng_jpeg.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libmng\libmng-2.0.3\libmng_object_prc.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libmng\libmng-2.0.3\libmng_pixels.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libmng\libmng-2.0.3\libmng_prop_xs.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libmng\libmng-2.0.3\libmng_read.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libmng\libmng-2.0.3\libmng_trace.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libmng\libmng-2.0.3\libmng_write.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libmng\libmng-2.0.3\libmng_zlib.c" />
+  </ItemGroup>
+</Project>

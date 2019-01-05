@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\libcharset\lib\localcharset.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\genaliases.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\genaliases2.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\genflags.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\gentranslit.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\iconv.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\relocatable.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\include\export.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\include\iconv.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\canonical_syssolaris.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\ces_big5.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\ces_gbk.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cjk_variants.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cns11643.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cns11643_1.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cns11643_15.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cns11643_2.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cns11643_3.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cns11643_4.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cns11643_4a.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cns11643_4b.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cns11643_5.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cns11643_6.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cns11643_7.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cns11643_inv.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\converters.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp1046.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp1124.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp1125.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp1129.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp1131.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp1133.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp1161.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp1162.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp1163.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp1250.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp1251.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp1252.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp1253.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp1254.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp1255.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp1256.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp1257.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp1258.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp437.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp737.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp775.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp850.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp852.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp853.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp855.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp856.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp857.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp858.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp860.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp861.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp862.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp863.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp864.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp865.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp866.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp869.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp874.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp922.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp932.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp932ext.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp936.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp936ext.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp943.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp949.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp950.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\cp950ext.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\dec_hanyu.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\dec_kanji.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\euc_cn.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\euc_jisx0213.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\euc_jp.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\euc_kr.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\euc_tw.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\flags.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\flushwc.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\gb12345.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\gb12345ext.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\gb18030.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\gb18030ext.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\gb18030uni.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\gb2312.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\gbk.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\gbkext1.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\gbkext2.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\gbkext_inv.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\georgian_academy.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\georgian_ps.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\hkscs1999.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\hkscs2001.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\hkscs2004.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\hkscs2008.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\hp_roman8.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\hz.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\iconv_open1.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\iconv_open2.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\iso2022_cn.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\iso2022_cnext.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\iso2022_jp.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\iso2022_jp1.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\iso2022_jp2.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\iso2022_jp3.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\iso2022_kr.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\iso646_cn.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\iso646_jp.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\iso8859_1.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\iso8859_10.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\iso8859_11.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\iso8859_13.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\iso8859_14.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\iso8859_15.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\iso8859_16.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\iso8859_2.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\iso8859_3.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\iso8859_4.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\iso8859_5.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\iso8859_6.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\iso8859_7.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\iso8859_8.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\iso8859_9.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\isoir165.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\isoir165ext.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\java.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\jisx0201.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\jisx0208.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\jisx0212.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\jisx0213.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\johab.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\johab_hangul.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\koi8_r.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\koi8_ru.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\koi8_t.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\koi8_u.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\ksc5601.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\loops.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\loop_unicode.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\loop_wchar.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\mac_arabic.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\mac_centraleurope.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\mac_croatian.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\mac_cyrillic.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\mac_greek.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\mac_hebrew.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\mac_iceland.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\mac_roman.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\mac_romania.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\mac_thai.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\mac_turkish.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\mac_ukraine.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\mulelao.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\nextstep.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\pt154.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\relocatable.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\riscos1.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\rk1048.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\shift_jisx0213.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\sjis.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\tcvn.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\tds565.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\tis620.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\translit.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\ucs2.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\ucs2be.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\ucs2internal.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\ucs2le.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\ucs2swapped.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\ucs4.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\ucs4be.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\ucs4internal.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\ucs4le.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\ucs4swapped.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\uhc_1.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\uhc_2.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\utf16.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\utf16be.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\utf16le.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\utf32.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\utf32be.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\utf32le.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\utf7.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\utf8.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\vietcomb.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\viscii.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\srclib\localcharset.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\encodings.def" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\encodings_aix.def" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\encodings_dos.def" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\encodings_extra.def" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\encodings_local.def" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\encodings_osf1.def" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\translit.def" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\aliases.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\aliases_aix.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\aliases_aix_sysaix.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\aliases_dos.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\aliases_extra.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\aliases_osf1.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\aliases_osf1_sysosf1.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\aliases_sysaix.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\aliases_syshpux.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\aliases_sysosf1.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\aliases_syssolaris.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\aliases2.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\canonical_sysosf1.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\armscii_8.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\ascii.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\atarist.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\big5.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\big5_2003.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\big5hkscs1999.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\big5hkscs2001.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\big5hkscs2004.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\big5hkscs2008.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\c99.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\canonical.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\canonical_aix.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\canonical_aix_sysaix.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\canonical_dos.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\canonical_extra.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\canonical_local.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\canonical_local_sysaix.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\canonical_local_syshpux.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\canonical_local_sysosf1.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\canonical_local_syssolaris.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\canonical_osf1.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\canonical_osf1_sysosf1.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\canonical_sysaix.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\canonical_syshpux.h">
+      <Filter>lib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{28217b60-b1e8-477a-a79f-4a4a0c6e47c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{5dc912cf-786c-4a02-abc1-25108ba560c3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\config.h.in" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\Makefile.in" />
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\aliases.gperf">
+      <Filter>lib</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\aliases_sysaix.gperf">
+      <Filter>lib</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\aliases_syshpux.gperf">
+      <Filter>lib</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\aliases_sysosf1.gperf">
+      <Filter>lib</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\libiconv\libiconv-1.14\lib\aliases_syssolaris.gperf">
+      <Filter>lib</Filter>
+    </None>
+  </ItemGroup>
+</Project>

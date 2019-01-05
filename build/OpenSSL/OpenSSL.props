@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_DEPRECATE;OPENSSL_NO_EC_NISTP_64_GCC_128;OPENSSL_NO_LIBUNBOUND;OPENSSL_NO_SSL_TRACE;OPENSSL_NO_UNIT_TEST;OPENSSL_NO_ASM;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\src/openssl/openssl-1.0.2a;..\..\src/openssl/openssl-1.0.2a/inc32;..\..\src/openssl/openssl-1.0.2a\crypto;..\..\src/openssl/openssl-1.0.2a\crypto\internal;..\..\src/openssl/openssl-1.0.2a\crypto\evp;..\..\src/openssl/openssl-1.0.2a\crypto\asn1;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4267;4244;4996;4311</DisableSpecificWarnings>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

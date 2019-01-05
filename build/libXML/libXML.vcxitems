@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{d1fbc907-e945-4815-95e1-dc575f0f51a6}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\buf.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\c14n.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\catalog.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\chvalid.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\debugXML.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\dict.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\DOCBparser.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\encoding.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\entities.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\error.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\globals.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\hash.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\HTMLparser.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\HTMLtree.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\legacy.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\list.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\nanoftp.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\nanohttp.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\parser.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\parserInternals.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\pattern.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\relaxng.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\SAX.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\SAX2.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\schematron.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\threads.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\tree.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\trio.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\trionan.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\triostr.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\uri.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\valid.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\xinclude.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\xlink.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\xmlIO.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\xmlmemory.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\xmlmodule.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\xmlreader.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\xmlregexp.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\xmlsave.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\xmlschemas.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\xmlschemastypes.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\xmlstring.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\xmlunicode.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\xmlwriter.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\xpath.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\xpointer.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\buf.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\elfgcchack.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\enc.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\c14n.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\catalog.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\chvalid.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\debugXML.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\dict.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\DOCBparser.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\encoding.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\entities.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\globals.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\hash.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\HTMLparser.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\HTMLtree.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\list.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\nanoftp.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\nanohttp.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\parser.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\parserInternals.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\pattern.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\relaxng.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\SAX.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\SAX2.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\schemasInternals.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\schematron.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\threads.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\tree.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\uri.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\valid.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\xinclude.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\xlink.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\xmlautomata.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\xmlerror.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\xmlexports.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\xmlIO.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\xmlmemory.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\xmlmodule.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\xmlreader.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\xmlregexp.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\xmlsave.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\xmlschemas.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\xmlschemastypes.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\xmlstring.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\xmlunicode.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\xmlversion.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\xmlwin32version.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\xmlwriter.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\xpath.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\xpathInternals.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\libxml\xpointer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\win32config.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\include\wsockcompat.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\libxml.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\save.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\timsort.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\trio.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\triodef.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\trionan.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\triop.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libxml\libxml2\triostr.h" />
+  </ItemGroup>
+</Project>

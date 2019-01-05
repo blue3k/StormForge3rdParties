@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{92FE0727-0412-423A-B024-87AC5E66F8D2}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\lcms\lcms2-2.7\src\cmscam02.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\lcms\lcms2-2.7\src\cmscgats.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\lcms\lcms2-2.7\src\cmscnvrt.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\lcms\lcms2-2.7\src\cmserr.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\lcms\lcms2-2.7\src\cmsgamma.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\lcms\lcms2-2.7\src\cmsgmt.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\lcms\lcms2-2.7\src\cmshalf.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\lcms\lcms2-2.7\src\cmsintrp.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\lcms\lcms2-2.7\src\cmsio0.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\lcms\lcms2-2.7\src\cmsio1.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\lcms\lcms2-2.7\src\cmslut.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\lcms\lcms2-2.7\src\cmsmd5.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\lcms\lcms2-2.7\src\cmsmtrx.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\lcms\lcms2-2.7\src\cmsnamed.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\lcms\lcms2-2.7\src\cmsopt.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\lcms\lcms2-2.7\src\cmspack.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\lcms\lcms2-2.7\src\cmspcs.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\lcms\lcms2-2.7\src\cmsplugin.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\lcms\lcms2-2.7\src\cmsps2.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\lcms\lcms2-2.7\src\cmssamp.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\lcms\lcms2-2.7\src\cmssm.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\lcms\lcms2-2.7\src\cmstypes.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\lcms\lcms2-2.7\src\cmsvirt.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\lcms\lcms2-2.7\src\cmswtpnt.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\lcms\lcms2-2.7\src\cmsxform.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\lcms\lcms2-2.7\include\lcms.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\lcms\lcms2-2.7\include\lcms2.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\lcms\lcms2-2.7\include\lcms2_plugin.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\lcms\lcms2-2.7\src\lcms2_internal.h" />
+  </ItemGroup>
+</Project>

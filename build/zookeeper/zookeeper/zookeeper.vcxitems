@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{f891b50f-a0e2-44bc-8d9d-9c2258721fb1}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\src\zookeeperConnector\generated\zookeeper.jute.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\src\zookeeperConnector\src\hashtable\hashtable.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\src\zookeeperConnector\src\hashtable\hashtable_itr.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\src\zookeeperConnector\src\mt_adaptor.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\src\zookeeperConnector\src\recordio.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\src\zookeeperConnector\src\winport.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\src\zookeeperConnector\src\zk_hashtable.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\src\zookeeperConnector\src\zk_log.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\src\zookeeperConnector\src\zookeeper.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\src\zookeeperConnector\include\proto.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\src\zookeeperConnector\include\recordio.h" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\src\zookeeperConnector\include\winconfig.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\src\zookeeperConnector\include\winstdint.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\src\zookeeperConnector\include\zookeeper.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\src\zookeeperConnector\include\zookeeper.jute.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\src\zookeeperConnector\include\zookeeper_log.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\src\zookeeperConnector\include\zookeeper_version.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\src\zookeeperConnector\src\hashtable\hashtable.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\src\zookeeperConnector\src\hashtable\hashtable_itr.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\src\zookeeperConnector\src\hashtable\hashtable_private.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\src\zookeeperConnector\src\winport.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\src\zookeeperConnector\src\zk_adaptor.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\src\zookeeperConnector\src\zk_hashtable.h" />
+  </ItemGroup>
+</Project>

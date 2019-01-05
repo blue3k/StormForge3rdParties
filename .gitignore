@@ -1,32 +1,40 @@
-# Prerequisites
-*.d
-
 # Compiled Object files
 *.slo
 *.lo
 *.o
 *.obj
+intermediate
 
 # Precompiled Headers
 *.gch
 *.pch
 
 # Compiled Dynamic libraries
-*.so
 *.dylib
-*.dll
 
 # Fortran module files
 *.mod
-*.smod
 
 # Compiled Static libraries
 *.lai
 *.la
-*.a
-*.lib
+#*.a
+#*.lib
 
 # Executables
-*.exe
 *.out
 *.app
+
+# Project temp
+*.user
+*.nlp
+*.cache
+*.opendb
+*.suo
+*.tlog
+*.log
+
+.vs
+.workspace
+
+*.xcuserstate

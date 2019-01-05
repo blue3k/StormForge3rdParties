@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{E1B45E3A-3D03-4483-82B1-D39835D2CF6F}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\cdjpeg.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\jaricom.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\jcapistd.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\jcomapi.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\jdapimin.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\jdapistd.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\jdarith.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\jdatadst.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\jdatasrc.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\jdcoefct.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\jdcolor.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\jddctmgr.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\jdhuff.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\jdinput.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\jdmainct.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\jdmarker.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\jdmaster.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\jdmerge.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\jdpostct.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\jdsample.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\jerror.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\jidctflt.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\jidctfst.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\jidctint.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\jmemansi.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\jmemmgr.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\jpegtran.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\jquant1.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\jquant2.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\jutils.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\rdswitch.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\transupp.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\cderror.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\cdjpeg.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\jconfig.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\jdct.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\jerror.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\jinclude.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\jmemsys.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\jmorecfg.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\jpegint.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\jpeglib.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\jversion.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jpeg\jpeg-9a\transupp.h" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,2918 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="crypto">
+      <UniqueIdentifier>{68b67161-af01-46bb-98b3-f739a87c8354}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ssl">
+      <UniqueIdentifier>{d09aa5cc-c5c9-4ebb-b1c9-cc56bccc4f87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\gen">
+      <UniqueIdentifier>{bb3736ad-b935-4081-b361-c2b4e12ca285}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\x509">
+      <UniqueIdentifier>{bb8efabe-cdd1-4112-ab12-0792e20d3935}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\aes">
+      <UniqueIdentifier>{6cefc1b9-22cc-4cb7-8fbe-aff02d5123f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\asn1">
+      <UniqueIdentifier>{ea6cc4d2-2a2e-46b9-ac60-be5c18644fde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\sha">
+      <UniqueIdentifier>{98520eec-dd8a-4dcc-9086-1c9553c0188d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\bf">
+      <UniqueIdentifier>{e5cea5ea-7b35-4d52-9665-09a1969c0187}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\bio">
+      <UniqueIdentifier>{1547abe7-8302-40e7-8d97-b0b94f2de7cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\bn">
+      <UniqueIdentifier>{8baeeffb-1f7e-4ed7-9ab7-7517acfe6dbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\buffer">
+      <UniqueIdentifier>{6d6e061c-45c4-49f8-a85e-3563a2d56a45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\camellia">
+      <UniqueIdentifier>{0bab19a4-63b9-4399-8739-afa9736c4b46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\cast">
+      <UniqueIdentifier>{c0e84adc-d820-49ae-a3a5-e0d8abc0f2c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\cmac">
+      <UniqueIdentifier>{da335693-75b7-485c-8962-eb13410b62db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\comp">
+      <UniqueIdentifier>{c4572d45-f7a0-46b1-88e7-e0588674d27f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\conf">
+      <UniqueIdentifier>{ca2b60e3-abc3-4922-a84b-1a008a4f2773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\des">
+      <UniqueIdentifier>{65e21e0a-eadb-49ac-96d3-bacf6d6944ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\des\times">
+      <UniqueIdentifier>{f87b2d97-4cb4-47d9-88c9-f0d0ef1912e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\dh">
+      <UniqueIdentifier>{1f1541ed-3730-4544-a801-9fa565c1d2d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\dsa">
+      <UniqueIdentifier>{47254b24-f71e-4b1d-be18-933d33868f52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\seed">
+      <UniqueIdentifier>{e2d3ed74-7a05-496d-aac8-2fbe34bbc9b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\srp">
+      <UniqueIdentifier>{c8cc2cd8-cfdc-4c84-b225-b07f82bc10ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\stack">
+      <UniqueIdentifier>{44f4f28f-e222-4ba0-b8a8-ddd90982a086}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\threads">
+      <UniqueIdentifier>{417f8375-45f9-4b41-80aa-60516ebaa1d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\txt_db">
+      <UniqueIdentifier>{7b9fed2d-987d-4bbf-ad0f-7ca9812ac743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\ts">
+      <UniqueIdentifier>{7b5be43b-e269-4a78-b81c-c3031c9d18d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\ui">
+      <UniqueIdentifier>{3ee36a96-f4cd-4fbd-8041-05476a590349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\x509v3">
+      <UniqueIdentifier>{0c4cf130-2d7e-4f27-8fba-b25d0ab23f7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\pkcs7">
+      <UniqueIdentifier>{6e9d24d2-c6e2-430a-83ac-6edd75e968ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\pkcs12">
+      <UniqueIdentifier>{4f476349-e257-410b-b572-965fb923394b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\pqueue">
+      <UniqueIdentifier>{db7677e0-7981-46bf-ac70-5188bbe097fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\rand">
+      <UniqueIdentifier>{f7585fe6-5988-43b0-9959-3952487995c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\lhash">
+      <UniqueIdentifier>{01c23955-d28a-4eaa-83a4-7abd88e2ca69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\md2">
+      <UniqueIdentifier>{3ad5d319-4c84-43f8-9da7-7aebf671b397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\md4">
+      <UniqueIdentifier>{4047a95b-b809-4079-93cd-582c1f0cb82f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\md5">
+      <UniqueIdentifier>{4348864e-bb1e-4bc2-b30b-9bfd366aa759}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\mdc2">
+      <UniqueIdentifier>{0e86c95b-c4a0-4bfb-bc6d-d2820e25f650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\evp">
+      <UniqueIdentifier>{0c98a889-1252-4dbf-9ba8-72122528e4ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\err">
+      <UniqueIdentifier>{933bb509-e0e8-48b0-86cc-97cdacdaa07a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\modes">
+      <UniqueIdentifier>{f7ae28dd-9b69-4170-9689-7520c1c5ecc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\objects">
+      <UniqueIdentifier>{e977df48-a47d-481c-a010-507d8bf985cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\dso">
+      <UniqueIdentifier>{a21fbd95-2e21-476f-85f7-daf0d8d9ea65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\ec">
+      <UniqueIdentifier>{884e3bd3-eb3c-4efb-9399-9bdf03c0bf86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\ecdh">
+      <UniqueIdentifier>{21c54058-9c5b-499c-836d-68c358c584ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\ecdsa">
+      <UniqueIdentifier>{a4e0f6fa-f24d-4926-a510-4f103b213431}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\engine">
+      <UniqueIdentifier>{e8b7602a-9260-449a-bff4-ff3c1ceb5e8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\hmac">
+      <UniqueIdentifier>{d97b961c-5255-4ccb-982c-fa83685c2bac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\idea">
+      <UniqueIdentifier>{360f6aa5-bc04-40ad-a72a-7e83f439abdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\jpake">
+      <UniqueIdentifier>{8df5e90c-946e-419c-9de8-b17225b9f79b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\krb5">
+      <UniqueIdentifier>{3aed6ad1-d826-4579-b79f-d8a443f138d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\ocsp">
+      <UniqueIdentifier>{f920d4e1-b164-4737-baa5-63b44fbb7605}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\pem">
+      <UniqueIdentifier>{ce5e7968-2be9-4931-b877-18c54984bcea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\rc2">
+      <UniqueIdentifier>{971863b2-8aab-4810-980e-3c5e9c696e61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\rc4">
+      <UniqueIdentifier>{61835d07-b6b7-4e93-9d50-11e2911efbad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\rc5">
+      <UniqueIdentifier>{de013046-4f1b-41dc-9283-33a1a6c4517f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\ripemd">
+      <UniqueIdentifier>{ba53c512-f21f-433b-8ea2-3342c36b5c25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\rsa">
+      <UniqueIdentifier>{c8a6604c-bdf6-4da9-98cc-20be67d6083a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\store">
+      <UniqueIdentifier>{984b6c39-6194-4234-918b-a76e67816e7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\whrlpool">
+      <UniqueIdentifier>{c50ef8ab-7730-4996-95fb-a7de5054ba5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="crypto\cms">
+      <UniqueIdentifier>{7eb78834-e523-4fe9-982c-5d52279ef097}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\constant_time_locl.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\aes\aes_locl.h">
+      <Filter>crypto\aes</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\aes\aes.h">
+      <Filter>crypto\aes</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\asn1.h">
+      <Filter>crypto\asn1</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\asn1_locl.h">
+      <Filter>crypto\asn1</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\asn1_mac.h">
+      <Filter>crypto\asn1</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\asn1t.h">
+      <Filter>crypto\asn1</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\charmap.h">
+      <Filter>crypto\asn1</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\inc32\openssl\sha.h">
+      <Filter>crypto\sha</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\sha\sha.h">
+      <Filter>crypto\sha</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\sha\sha_locl.h">
+      <Filter>crypto\sha</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\kssl.h">
+      <Filter>ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\inc32\openssl\kssl.h">
+      <Filter>ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\kssl_lcl.h">
+      <Filter>ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\ssl_locl.h">
+      <Filter>ssl</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bf\bf_locl.h">
+      <Filter>crypto\bf</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bf\bf_pi.h">
+      <Filter>crypto\bf</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bf\blowfish.h">
+      <Filter>crypto\bf</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bio\bio.h">
+      <Filter>crypto\bio</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bio\bio_lcl.h">
+      <Filter>crypto\bio</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bn\bn_prime.h">
+      <Filter>crypto\bn</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bn\rsaz_exp.h">
+      <Filter>crypto\bn</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bn\bn.h">
+      <Filter>crypto\bn</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bn\bn_lcl.h">
+      <Filter>crypto\bn</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\buffer\buffer.h">
+      <Filter>crypto\buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\camellia\camellia.h">
+      <Filter>crypto\camellia</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\camellia\cmll_locl.h">
+      <Filter>crypto\camellia</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\cast\cast.h">
+      <Filter>crypto\cast</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\cast\cast_lcl.h">
+      <Filter>crypto\cast</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\cast\cast_s.h">
+      <Filter>crypto\cast</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\cmac\cmac.h">
+      <Filter>crypto\cmac</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\comp\comp.h">
+      <Filter>crypto\comp</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\conf\conf.h">
+      <Filter>crypto\conf</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\conf\conf_api.h">
+      <Filter>crypto\conf</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\conf\conf_def.h">
+      <Filter>crypto\conf</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\spr.h">
+      <Filter>crypto\des</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\des.h">
+      <Filter>crypto\des</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\des_locl.h">
+      <Filter>crypto\des</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\des_old.h">
+      <Filter>crypto\des</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\des_ver.h">
+      <Filter>crypto\des</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\rpc_des.h">
+      <Filter>crypto\des</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dh\dh.h">
+      <Filter>crypto\dh</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dsa\dsa_locl.h">
+      <Filter>crypto\dsa</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dsa\dsa.h">
+      <Filter>crypto\dsa</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\seed\seed.h">
+      <Filter>crypto\seed</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\seed\seed_locl.h">
+      <Filter>crypto\seed</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\srp\srp_lcl.h">
+      <Filter>crypto\srp</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\srp\srp.h">
+      <Filter>crypto\srp</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\srp\srp_grps.h">
+      <Filter>crypto\srp</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\stack\safestack.h">
+      <Filter>crypto\stack</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\stack\stack.h">
+      <Filter>crypto\stack</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\txt_db\txt_db.h">
+      <Filter>crypto\txt_db</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ts\ts.h">
+      <Filter>crypto\ts</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ui\ui_compat.h">
+      <Filter>crypto\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ui\ui_locl.h">
+      <Filter>crypto\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ui\ui.h">
+      <Filter>crypto\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509\vpm_int.h">
+      <Filter>crypto\x509</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509\x509.h">
+      <Filter>crypto\x509</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509\x509_vfy.h">
+      <Filter>crypto\x509</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509v3\x509v3.h">
+      <Filter>crypto\x509v3</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509v3\ext_dat.h">
+      <Filter>crypto\x509v3</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509v3\pcy_int.h">
+      <Filter>crypto\x509v3</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pkcs7\pkcs7.h">
+      <Filter>crypto\pkcs7</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pkcs12\pkcs12.h">
+      <Filter>crypto\pkcs12</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pqueue\pqueue.h">
+      <Filter>crypto\pqueue</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rand\rand.h">
+      <Filter>crypto\rand</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rand\rand_lcl.h">
+      <Filter>crypto\rand</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\lhash\lhash.h">
+      <Filter>crypto\lhash</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\md2\md2.h">
+      <Filter>crypto\md2</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\md4\md4.h">
+      <Filter>crypto\md4</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\md4\md4_locl.h">
+      <Filter>crypto\md4</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\md5\md5.h">
+      <Filter>crypto\md5</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\md5\md5_locl.h">
+      <Filter>crypto\md5</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\mdc2\mdc2.h">
+      <Filter>crypto\mdc2</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\evp.h">
+      <Filter>crypto\evp</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\evp_locl.h">
+      <Filter>crypto\evp</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\err\err.h">
+      <Filter>crypto\err</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\modes\modes.h">
+      <Filter>crypto\modes</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\modes\modes_lcl.h">
+      <Filter>crypto\modes</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\objects\objects.h">
+      <Filter>crypto\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\objects\obj_dat.h">
+      <Filter>crypto\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\objects\obj_mac.h">
+      <Filter>crypto\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\objects\obj_xref.h">
+      <Filter>crypto\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dso\dso.h">
+      <Filter>crypto\dso</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ec\ec.h">
+      <Filter>crypto\ec</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ec\ec_lcl.h">
+      <Filter>crypto\ec</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ecdh\ech_locl.h">
+      <Filter>crypto\ecdh</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ecdh\ecdh.h">
+      <Filter>crypto\ecdh</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ecdsa\ecs_locl.h">
+      <Filter>crypto\ecdsa</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ecdsa\ecdsa.h">
+      <Filter>crypto\ecdsa</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\engine\eng_int.h">
+      <Filter>crypto\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\engine\engine.h">
+      <Filter>crypto\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\hmac\hmac.h">
+      <Filter>crypto\hmac</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\idea\idea_lcl.h">
+      <Filter>crypto\idea</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\idea\idea.h">
+      <Filter>crypto\idea</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\jpake\jpake.h">
+      <Filter>crypto\jpake</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\krb5\krb5_asn.h">
+      <Filter>crypto\krb5</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ocsp\ocsp.h">
+      <Filter>crypto\ocsp</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pem\pem2.h">
+      <Filter>crypto\pem</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pem\pem.h">
+      <Filter>crypto\pem</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rc2\rc2.h">
+      <Filter>crypto\rc2</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rc2\rc2_locl.h">
+      <Filter>crypto\rc2</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rc4\rc4_locl.h">
+      <Filter>crypto\rc4</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rc4\rc4.h">
+      <Filter>crypto\rc4</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rc5\rc5_locl.h">
+      <Filter>crypto\rc5</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rc5\rc5.h">
+      <Filter>crypto\rc5</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ripemd\rmd_locl.h">
+      <Filter>crypto\ripemd</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ripemd\rmdconst.h">
+      <Filter>crypto\ripemd</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ripemd\ripemd.h">
+      <Filter>crypto\ripemd</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rsa\rsa_locl.h">
+      <Filter>crypto\rsa</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rsa\rsa.h">
+      <Filter>crypto\rsa</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\store\str_locl.h">
+      <Filter>crypto\store</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\store\store.h">
+      <Filter>crypto\store</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\whrlpool\wp_locl.h">
+      <Filter>crypto\whrlpool</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\whrlpool\whrlpool.h">
+      <Filter>crypto\whrlpool</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\o_dir.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\o_str.h">
+      <Filter>crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\cms\cms_lcl.h">
+      <Filter>crypto\cms</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\cms\cms.h">
+      <Filter>crypto\cms</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\inc32\openssl\opensslconf.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\LPdir_nyi.c">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\LPdir_win.c">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\LPdir_win32.c">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\LPdir_wince.c">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\LPdir_unix.c">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\LPdir_vms.c">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\t1_clnt.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\t1_enc.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\t1_ext.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\t1_lib.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\t1_meth.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\t1_reneg.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\t1_srvr.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\t1_trce.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\tls_srp.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\aes\aes_ctr.c">
+      <Filter>crypto\aes</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\aes\aes_ecb.c">
+      <Filter>crypto\aes</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\aes\aes_ige.c">
+      <Filter>crypto\aes</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\aes\aes_misc.c">
+      <Filter>crypto\aes</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\aes\aes_ofb.c">
+      <Filter>crypto\aes</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\aes\aes_wrap.c">
+      <Filter>crypto\aes</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\aes\aes_x86core.c">
+      <Filter>crypto\aes</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\aes\aes_cbc.c">
+      <Filter>crypto\aes</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\aes\aes_cfb.c">
+      <Filter>crypto\aes</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\aes\aes_core.c">
+      <Filter>crypto\aes</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\x_algor.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\x_attrib.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\x_bignum.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\x_crl.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\x_exten.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\x_info.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\x_long.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\x_name.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\x_nx509.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\x_pkey.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\x_pubkey.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\x_req.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\x_sig.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\x_spki.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\x_val.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\x_x509.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\x_x509a.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\a_bitstr.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\a_bool.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\a_bytes.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\a_d2i_fp.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\a_digest.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\a_dup.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\a_enum.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\a_gentm.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\a_i2d_fp.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\a_int.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\a_mbstr.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\a_object.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\a_octet.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\a_print.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\a_set.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\a_sign.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\a_strex.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\a_strnid.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\a_time.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\a_type.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\a_utctm.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\a_utf8.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\a_verify.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\ameth_lib.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\asn_mime.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\asn_moid.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\asn_pack.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\asn1_err.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\asn1_gen.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\asn1_lib.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\asn1_par.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\bio_asn1.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\bio_ndef.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\d2i_pr.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\d2i_pu.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\evp_asn1.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\f_enum.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\f_int.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\f_string.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\i2d_pr.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\i2d_pu.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\n_pkey.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\nsseq.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\p5_pbe.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\p5_pbev2.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\p8_pkey.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\t_bitst.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\t_crl.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\t_pkey.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\t_req.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\t_spki.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\t_x509.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\t_x509a.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\tasn_dec.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\tasn_enc.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\tasn_fre.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\tasn_new.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\tasn_prn.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\tasn_typ.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\tasn_utl.c">
+      <Filter>crypto\asn1</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\sha\sha512.c">
+      <Filter>crypto\sha</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\sha\sha.c">
+      <Filter>crypto\sha</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\sha\sha_dgst.c">
+      <Filter>crypto\sha</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\sha\sha_one.c">
+      <Filter>crypto\sha</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\sha\sha1.c">
+      <Filter>crypto\sha</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\sha\sha1_one.c">
+      <Filter>crypto\sha</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\sha\sha1dgst.c">
+      <Filter>crypto\sha</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\sha\sha256.c">
+      <Filter>crypto\sha</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\d1_both.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\d1_clnt.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\d1_lib.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\d1_meth.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\d1_pkt.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\d1_srtp.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\d1_srvr.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\kssl.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\s23_srvr.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\s2_clnt.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\s2_enc.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\s2_lib.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\s2_meth.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\s2_pkt.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\s2_srvr.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\s3_both.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\s3_cbc.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\s3_clnt.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\s3_enc.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\s3_lib.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\s3_meth.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\s3_pkt.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\s3_srvr.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\s23_clnt.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\s23_lib.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\s23_meth.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\s23_pkt.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\ssl_algs.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\ssl_asn1.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\ssl_cert.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\ssl_ciph.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\ssl_conf.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\ssl_err.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\ssl_err2.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\ssl_lib.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\ssl_rsa.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\ssl_sess.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\ssl_stat.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\ssl_txt.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\ssl\ssl_utst.c">
+      <Filter>ssl</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bf\bf_cfb64.c">
+      <Filter>crypto\bf</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bf\bf_ecb.c">
+      <Filter>crypto\bf</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bf\bf_enc.c">
+      <Filter>crypto\bf</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bf\bf_ofb64.c">
+      <Filter>crypto\bf</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bf\bf_skey.c">
+      <Filter>crypto\bf</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bf\bfs.cpp">
+      <Filter>crypto\bf</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bf\bf_cbc.c">
+      <Filter>crypto\bf</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bio\bf_buff.c">
+      <Filter>crypto\bio</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bio\bf_lbuf.c">
+      <Filter>crypto\bio</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bio\bf_nbio.c">
+      <Filter>crypto\bio</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bio\bf_null.c">
+      <Filter>crypto\bio</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bio\bio_cb.c">
+      <Filter>crypto\bio</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bio\bio_err.c">
+      <Filter>crypto\bio</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bio\bio_lib.c">
+      <Filter>crypto\bio</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bio\bss_acpt.c">
+      <Filter>crypto\bio</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bio\bss_bio.c">
+      <Filter>crypto\bio</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bio\bss_conn.c">
+      <Filter>crypto\bio</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bio\bss_dgram.c">
+      <Filter>crypto\bio</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bio\bss_fd.c">
+      <Filter>crypto\bio</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bio\bss_file.c">
+      <Filter>crypto\bio</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bio\bss_log.c">
+      <Filter>crypto\bio</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bio\bss_mem.c">
+      <Filter>crypto\bio</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bio\bss_null.c">
+      <Filter>crypto\bio</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bio\bss_rtcp.c">
+      <Filter>crypto\bio</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bio\bss_sock.c">
+      <Filter>crypto\bio</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bio\b_dump.c">
+      <Filter>crypto\bio</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bio\b_print.c">
+      <Filter>crypto\bio</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bio\b_sock.c">
+      <Filter>crypto\bio</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bn\bn_print.c">
+      <Filter>crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bn\bn_rand.c">
+      <Filter>crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bn\bn_recp.c">
+      <Filter>crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bn\bn_shift.c">
+      <Filter>crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bn\bn_sqr.c">
+      <Filter>crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bn\bn_sqrt.c">
+      <Filter>crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bn\bn_word.c">
+      <Filter>crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bn\bn_x931p.c">
+      <Filter>crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bn\rsaz_exp.c">
+      <Filter>crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bn\vms-helper.c">
+      <Filter>crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bn\bn_add.c">
+      <Filter>crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bn\bn_asm.c">
+      <Filter>crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bn\bn_blind.c">
+      <Filter>crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bn\bn_const.c">
+      <Filter>crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bn\bn_ctx.c">
+      <Filter>crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bn\bn_depr.c">
+      <Filter>crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bn\bn_div.c">
+      <Filter>crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bn\bn_err.c">
+      <Filter>crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bn\bn_exp.c">
+      <Filter>crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bn\bn_exp2.c">
+      <Filter>crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bn\bn_gcd.c">
+      <Filter>crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bn\bn_gf2m.c">
+      <Filter>crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bn\bn_kron.c">
+      <Filter>crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bn\bn_lib.c">
+      <Filter>crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bn\bn_mod.c">
+      <Filter>crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bn\bn_mont.c">
+      <Filter>crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bn\bn_mpi.c">
+      <Filter>crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bn\bn_mul.c">
+      <Filter>crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bn\bn_nist.c">
+      <Filter>crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bn\bn_prime.c">
+      <Filter>crypto\bn</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\buffer\buffer.c">
+      <Filter>crypto\buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\buffer\buf_err.c">
+      <Filter>crypto\buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\buffer\buf_str.c">
+      <Filter>crypto\buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\camellia\camellia.c">
+      <Filter>crypto\camellia</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\camellia\cmll_cbc.c">
+      <Filter>crypto\camellia</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\camellia\cmll_cfb.c">
+      <Filter>crypto\camellia</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\camellia\cmll_ctr.c">
+      <Filter>crypto\camellia</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\camellia\cmll_ecb.c">
+      <Filter>crypto\camellia</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\camellia\cmll_misc.c">
+      <Filter>crypto\camellia</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\camellia\cmll_ofb.c">
+      <Filter>crypto\camellia</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\camellia\cmll_utl.c">
+      <Filter>crypto\camellia</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\cast\c_cfb64.c">
+      <Filter>crypto\cast</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\cast\c_ecb.c">
+      <Filter>crypto\cast</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\cast\c_enc.c">
+      <Filter>crypto\cast</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\cast\c_ofb64.c">
+      <Filter>crypto\cast</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\cast\c_skey.c">
+      <Filter>crypto\cast</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\cmac\cm_pmeth.c">
+      <Filter>crypto\cmac</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\cmac\cmac.c">
+      <Filter>crypto\cmac</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\cmac\cm_ameth.c">
+      <Filter>crypto\cmac</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\comp\comp_err.c">
+      <Filter>crypto\comp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\comp\comp_lib.c">
+      <Filter>crypto\comp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\comp\c_rle.c">
+      <Filter>crypto\comp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\comp\c_zlib.c">
+      <Filter>crypto\comp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\conf\conf_err.c">
+      <Filter>crypto\conf</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\conf\conf_lib.c">
+      <Filter>crypto\conf</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\conf\conf_mall.c">
+      <Filter>crypto\conf</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\conf\conf_mod.c">
+      <Filter>crypto\conf</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\conf\conf_sap.c">
+      <Filter>crypto\conf</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\conf\conf_api.c">
+      <Filter>crypto\conf</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\conf\conf_def.c">
+      <Filter>crypto\conf</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\rpc_enc.c">
+      <Filter>crypto\des</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\set_key.c">
+      <Filter>crypto\des</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\str2key.c">
+      <Filter>crypto\des</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\xcbc_enc.c">
+      <Filter>crypto\des</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\cbc_cksm.c">
+      <Filter>crypto\des</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\cbc_enc.c">
+      <Filter>crypto\des</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\cbc3_enc.c">
+      <Filter>crypto\des</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\cfb_enc.c">
+      <Filter>crypto\des</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\cfb64ede.c">
+      <Filter>crypto\des</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\cfb64enc.c">
+      <Filter>crypto\des</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\des_enc.c">
+      <Filter>crypto\des</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\des_old.c">
+      <Filter>crypto\des</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\des_old2.c">
+      <Filter>crypto\des</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\ecb_enc.c">
+      <Filter>crypto\des</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\ecb3_enc.c">
+      <Filter>crypto\des</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\ede_cbcm_enc.c">
+      <Filter>crypto\des</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\enc_read.c">
+      <Filter>crypto\des</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\enc_writ.c">
+      <Filter>crypto\des</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\fcrypt.c">
+      <Filter>crypto\des</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\fcrypt_b.c">
+      <Filter>crypto\des</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\ncbc_enc.c">
+      <Filter>crypto\des</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\ofb_enc.c">
+      <Filter>crypto\des</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\ofb64ede.c">
+      <Filter>crypto\des</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\ofb64enc.c">
+      <Filter>crypto\des</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\pcbc_enc.c">
+      <Filter>crypto\des</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\qud_cksm.c">
+      <Filter>crypto\des</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\rand_key.c">
+      <Filter>crypto\des</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\read_pwd.c">
+      <Filter>crypto\des</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\read2pwd.c">
+      <Filter>crypto\des</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\times\aix.cc">
+      <Filter>crypto\des\times</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\times\alpha.cc">
+      <Filter>crypto\des\times</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\times\hpux.cc">
+      <Filter>crypto\des\times</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\times\usparc.cc">
+      <Filter>crypto\des\times</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dh\dh_prn.c">
+      <Filter>crypto\dh</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dh\dh_rfc5114.c">
+      <Filter>crypto\dh</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dh\dh_ameth.c">
+      <Filter>crypto\dh</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dh\dh_asn1.c">
+      <Filter>crypto\dh</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dh\dh_check.c">
+      <Filter>crypto\dh</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dh\dh_depr.c">
+      <Filter>crypto\dh</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dh\dh_err.c">
+      <Filter>crypto\dh</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dh\dh_gen.c">
+      <Filter>crypto\dh</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dh\dh_kdf.c">
+      <Filter>crypto\dh</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dh\dh_key.c">
+      <Filter>crypto\dh</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dh\dh_lib.c">
+      <Filter>crypto\dh</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dh\dh_pmeth.c">
+      <Filter>crypto\dh</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dsa\dsa_lib.c">
+      <Filter>crypto\dsa</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dsa\dsa_ossl.c">
+      <Filter>crypto\dsa</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dsa\dsa_pmeth.c">
+      <Filter>crypto\dsa</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dsa\dsa_prn.c">
+      <Filter>crypto\dsa</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dsa\dsa_sign.c">
+      <Filter>crypto\dsa</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dsa\dsa_vrf.c">
+      <Filter>crypto\dsa</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dsa\dsa_ameth.c">
+      <Filter>crypto\dsa</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dsa\dsa_asn1.c">
+      <Filter>crypto\dsa</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dsa\dsa_depr.c">
+      <Filter>crypto\dsa</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dsa\dsa_err.c">
+      <Filter>crypto\dsa</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dsa\dsa_gen.c">
+      <Filter>crypto\dsa</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dsa\dsa_key.c">
+      <Filter>crypto\dsa</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\seed\seed_cbc.c">
+      <Filter>crypto\seed</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\seed\seed_cfb.c">
+      <Filter>crypto\seed</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\seed\seed_ecb.c">
+      <Filter>crypto\seed</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\seed\seed_ofb.c">
+      <Filter>crypto\seed</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\seed\seed.c">
+      <Filter>crypto\seed</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\srp\srp_lib.c">
+      <Filter>crypto\srp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\srp\srp_vfy.c">
+      <Filter>crypto\srp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\stack\stack.c">
+      <Filter>crypto\stack</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\threads\th-lock.c">
+      <Filter>crypto\threads</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\txt_db\txt_db.c">
+      <Filter>crypto\txt_db</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ts\ts_rsp_print.c">
+      <Filter>crypto\ts</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ts\ts_rsp_sign.c">
+      <Filter>crypto\ts</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ts\ts_rsp_utils.c">
+      <Filter>crypto\ts</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ts\ts_rsp_verify.c">
+      <Filter>crypto\ts</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ts\ts_verify_ctx.c">
+      <Filter>crypto\ts</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ts\ts_asn1.c">
+      <Filter>crypto\ts</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ts\ts_conf.c">
+      <Filter>crypto\ts</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ts\ts_err.c">
+      <Filter>crypto\ts</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ts\ts_lib.c">
+      <Filter>crypto\ts</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ts\ts_req_print.c">
+      <Filter>crypto\ts</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ts\ts_req_utils.c">
+      <Filter>crypto\ts</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ui\ui_err.c">
+      <Filter>crypto\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ui\ui_lib.c">
+      <Filter>crypto\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ui\ui_openssl.c">
+      <Filter>crypto\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ui\ui_util.c">
+      <Filter>crypto\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ui\ui_compat.c">
+      <Filter>crypto\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509\x509rset.c">
+      <Filter>crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509\x509spki.c">
+      <Filter>crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509\x509type.c">
+      <Filter>crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509\by_dir.c">
+      <Filter>crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509\by_file.c">
+      <Filter>crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509\x_all.c">
+      <Filter>crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509\x509_att.c">
+      <Filter>crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509\x509_cmp.c">
+      <Filter>crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509\x509_d2.c">
+      <Filter>crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509\x509_def.c">
+      <Filter>crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509\x509_err.c">
+      <Filter>crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509\x509_ext.c">
+      <Filter>crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509\x509_lu.c">
+      <Filter>crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509\x509_obj.c">
+      <Filter>crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509\x509_r2x.c">
+      <Filter>crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509\x509_req.c">
+      <Filter>crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509\x509_set.c">
+      <Filter>crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509\x509_trs.c">
+      <Filter>crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509\x509_txt.c">
+      <Filter>crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509\x509_v3.c">
+      <Filter>crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509\x509_vfy.c">
+      <Filter>crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509\x509_vpm.c">
+      <Filter>crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509\x509cset.c">
+      <Filter>crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509\x509name.c">
+      <Filter>crypto\x509</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509v3\v3_info.c">
+      <Filter>crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509v3\v3_int.c">
+      <Filter>crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509v3\v3_lib.c">
+      <Filter>crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509v3\v3_ncons.c">
+      <Filter>crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509v3\v3_ocsp.c">
+      <Filter>crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509v3\v3_pci.c">
+      <Filter>crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509v3\v3_pcia.c">
+      <Filter>crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509v3\v3_pcons.c">
+      <Filter>crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509v3\v3_pku.c">
+      <Filter>crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509v3\v3_pmaps.c">
+      <Filter>crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509v3\v3_prn.c">
+      <Filter>crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509v3\v3_purp.c">
+      <Filter>crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509v3\v3_scts.c">
+      <Filter>crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509v3\v3_skey.c">
+      <Filter>crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509v3\v3_sxnet.c">
+      <Filter>crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509v3\v3_utl.c">
+      <Filter>crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509v3\v3err.c">
+      <Filter>crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509v3\pcy_cache.c">
+      <Filter>crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509v3\pcy_data.c">
+      <Filter>crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509v3\pcy_lib.c">
+      <Filter>crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509v3\pcy_map.c">
+      <Filter>crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509v3\pcy_node.c">
+      <Filter>crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509v3\pcy_tree.c">
+      <Filter>crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509v3\v3_addr.c">
+      <Filter>crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509v3\v3_akey.c">
+      <Filter>crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509v3\v3_akeya.c">
+      <Filter>crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509v3\v3_alt.c">
+      <Filter>crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509v3\v3_asid.c">
+      <Filter>crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509v3\v3_bcons.c">
+      <Filter>crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509v3\v3_bitst.c">
+      <Filter>crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509v3\v3_cpols.c">
+      <Filter>crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509v3\v3_crld.c">
+      <Filter>crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509v3\v3_enum.c">
+      <Filter>crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509v3\v3_extku.c">
+      <Filter>crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509v3\v3_genn.c">
+      <Filter>crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509v3\v3_ia5.c">
+      <Filter>crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pkcs7\pk7_attr.c">
+      <Filter>crypto\pkcs7</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pkcs7\pk7_dgst.c">
+      <Filter>crypto\pkcs7</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pkcs7\pk7_doit.c">
+      <Filter>crypto\pkcs7</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pkcs7\pk7_lib.c">
+      <Filter>crypto\pkcs7</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pkcs7\pk7_mime.c">
+      <Filter>crypto\pkcs7</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pkcs7\pk7_smime.c">
+      <Filter>crypto\pkcs7</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pkcs7\pkcs7err.c">
+      <Filter>crypto\pkcs7</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pkcs7\bio_pk7.c">
+      <Filter>crypto\pkcs7</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pkcs7\pk7_asn1.c">
+      <Filter>crypto\pkcs7</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pkcs12\p12_crt.c">
+      <Filter>crypto\pkcs12</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pkcs12\p12_decr.c">
+      <Filter>crypto\pkcs12</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pkcs12\p12_init.c">
+      <Filter>crypto\pkcs12</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pkcs12\p12_key.c">
+      <Filter>crypto\pkcs12</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pkcs12\p12_kiss.c">
+      <Filter>crypto\pkcs12</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pkcs12\p12_mutl.c">
+      <Filter>crypto\pkcs12</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pkcs12\p12_npas.c">
+      <Filter>crypto\pkcs12</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pkcs12\p12_p8d.c">
+      <Filter>crypto\pkcs12</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pkcs12\p12_p8e.c">
+      <Filter>crypto\pkcs12</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pkcs12\p12_utl.c">
+      <Filter>crypto\pkcs12</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pkcs12\pk12err.c">
+      <Filter>crypto\pkcs12</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pkcs12\p12_add.c">
+      <Filter>crypto\pkcs12</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pkcs12\p12_asn.c">
+      <Filter>crypto\pkcs12</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pkcs12\p12_attr.c">
+      <Filter>crypto\pkcs12</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pkcs12\p12_crpt.c">
+      <Filter>crypto\pkcs12</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pqueue\pqueue.c">
+      <Filter>crypto\pqueue</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rand\rand_nw.c">
+      <Filter>crypto\rand</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rand\rand_os2.c">
+      <Filter>crypto\rand</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rand\rand_unix.c">
+      <Filter>crypto\rand</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rand\rand_vms.c">
+      <Filter>crypto\rand</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rand\rand_win.c">
+      <Filter>crypto\rand</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rand\randfile.c">
+      <Filter>crypto\rand</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rand\md_rand.c">
+      <Filter>crypto\rand</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rand\rand_egd.c">
+      <Filter>crypto\rand</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rand\rand_err.c">
+      <Filter>crypto\rand</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rand\rand_lib.c">
+      <Filter>crypto\rand</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\lhash\lhash.c">
+      <Filter>crypto\lhash</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\lhash\lh_stats.c">
+      <Filter>crypto\lhash</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\md2\md2_dgst.c">
+      <Filter>crypto\md2</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\md2\md2_one.c">
+      <Filter>crypto\md2</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\md4\md4_dgst.c">
+      <Filter>crypto\md4</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\md4\md4_one.c">
+      <Filter>crypto\md4</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\md5\md5_one.c">
+      <Filter>crypto\md5</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\md5\md5_dgst.c">
+      <Filter>crypto\md5</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\mdc2\mdc2_one.c">
+      <Filter>crypto\mdc2</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\mdc2\mdc2dgst.c">
+      <Filter>crypto\mdc2</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\m_sha.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\m_sha1.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\m_sigver.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\m_wp.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\names.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\openbsd_hw.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\p_dec.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\p_enc.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\p_lib.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\p_open.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\p_seal.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\p_sign.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\p_verify.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\p5_crpt.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\p5_crpt2.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\pmeth_fn.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\pmeth_gn.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\pmeth_lib.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\bio_b64.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\bio_enc.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\bio_md.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\bio_ok.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\c_all.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\c_allc.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\c_alld.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\digest.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\e_aes.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\e_aes_cbc_hmac_sha1.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\e_aes_cbc_hmac_sha256.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\e_bf.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\e_camellia.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\e_cast.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\e_des.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\e_des3.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\e_idea.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\e_null.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\e_old.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\e_rc2.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\e_rc4.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\e_rc4_hmac_md5.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\e_rc5.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\e_seed.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\e_xcbc_d.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\encode.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\evp_acnf.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\evp_cnf.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\evp_enc.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\evp_err.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\evp_key.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\evp_lib.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\evp_pbe.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\evp_pkey.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\m_dss.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\m_dss1.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\m_ecdsa.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\m_md2.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\m_md4.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\m_md5.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\m_mdc2.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\m_null.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\m_ripemd.c">
+      <Filter>crypto\evp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\err\err_prn.c">
+      <Filter>crypto\err</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\err\err.c">
+      <Filter>crypto\err</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\err\err_all.c">
+      <Filter>crypto\err</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\modes\ctr128.c">
+      <Filter>crypto\modes</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\modes\cts128.c">
+      <Filter>crypto\modes</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\modes\gcm128.c">
+      <Filter>crypto\modes</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\modes\ofb128.c">
+      <Filter>crypto\modes</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\modes\wrap128.c">
+      <Filter>crypto\modes</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\modes\xts128.c">
+      <Filter>crypto\modes</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\modes\cbc128.c">
+      <Filter>crypto\modes</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\modes\ccm128.c">
+      <Filter>crypto\modes</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\modes\cfb128.c">
+      <Filter>crypto\modes</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\objects\o_names.c">
+      <Filter>crypto\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\objects\obj_dat.c">
+      <Filter>crypto\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\objects\obj_err.c">
+      <Filter>crypto\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\objects\obj_lib.c">
+      <Filter>crypto\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\objects\obj_xref.c">
+      <Filter>crypto\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dso\dso_dlfcn.c">
+      <Filter>crypto\dso</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dso\dso_err.c">
+      <Filter>crypto\dso</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dso\dso_lib.c">
+      <Filter>crypto\dso</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dso\dso_null.c">
+      <Filter>crypto\dso</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dso\dso_openssl.c">
+      <Filter>crypto\dso</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dso\dso_vms.c">
+      <Filter>crypto\dso</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dso\dso_win32.c">
+      <Filter>crypto\dso</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dso\dso_beos.c">
+      <Filter>crypto\dso</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dso\dso_dl.c">
+      <Filter>crypto\dso</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ec\ecp_nistz256.c">
+      <Filter>crypto\ec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ec\ecp_oct.c">
+      <Filter>crypto\ec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ec\ecp_smpl.c">
+      <Filter>crypto\ec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ec\ec_ameth.c">
+      <Filter>crypto\ec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ec\ec_asn1.c">
+      <Filter>crypto\ec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ec\ec_check.c">
+      <Filter>crypto\ec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ec\ec_curve.c">
+      <Filter>crypto\ec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ec\ec_cvt.c">
+      <Filter>crypto\ec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ec\ec_err.c">
+      <Filter>crypto\ec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ec\ec_key.c">
+      <Filter>crypto\ec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ec\ec_lib.c">
+      <Filter>crypto\ec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ec\ec_mult.c">
+      <Filter>crypto\ec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ec\ec_oct.c">
+      <Filter>crypto\ec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ec\ec_pmeth.c">
+      <Filter>crypto\ec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ec\ec_print.c">
+      <Filter>crypto\ec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ec\ec2_mult.c">
+      <Filter>crypto\ec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ec\ec2_oct.c">
+      <Filter>crypto\ec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ec\ec2_smpl.c">
+      <Filter>crypto\ec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ec\eck_prn.c">
+      <Filter>crypto\ec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ec\ecp_mont.c">
+      <Filter>crypto\ec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ec\ecp_nist.c">
+      <Filter>crypto\ec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ec\ecp_nistp224.c">
+      <Filter>crypto\ec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ec\ecp_nistp256.c">
+      <Filter>crypto\ec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ec\ecp_nistp521.c">
+      <Filter>crypto\ec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ec\ecp_nistputil.c">
+      <Filter>crypto\ec</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ecdh\ech_lib.c">
+      <Filter>crypto\ecdh</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ecdh\ech_ossl.c">
+      <Filter>crypto\ecdh</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ecdh\ech_err.c">
+      <Filter>crypto\ecdh</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ecdh\ech_kdf.c">
+      <Filter>crypto\ecdh</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ecdh\ech_key.c">
+      <Filter>crypto\ecdh</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ecdsa\ecs_ossl.c">
+      <Filter>crypto\ecdsa</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ecdsa\ecs_sign.c">
+      <Filter>crypto\ecdsa</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ecdsa\ecs_vrf.c">
+      <Filter>crypto\ecdsa</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ecdsa\ecs_asn1.c">
+      <Filter>crypto\ecdsa</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ecdsa\ecs_err.c">
+      <Filter>crypto\ecdsa</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ecdsa\ecs_lib.c">
+      <Filter>crypto\ecdsa</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\engine\tb_rand.c">
+      <Filter>crypto\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\engine\tb_rsa.c">
+      <Filter>crypto\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\engine\tb_store.c">
+      <Filter>crypto\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\engine\eng_all.c">
+      <Filter>crypto\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\engine\eng_cnf.c">
+      <Filter>crypto\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\engine\eng_cryptodev.c">
+      <Filter>crypto\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\engine\eng_ctrl.c">
+      <Filter>crypto\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\engine\eng_dyn.c">
+      <Filter>crypto\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\engine\eng_err.c">
+      <Filter>crypto\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\engine\eng_fat.c">
+      <Filter>crypto\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\engine\eng_init.c">
+      <Filter>crypto\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\engine\eng_lib.c">
+      <Filter>crypto\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\engine\eng_list.c">
+      <Filter>crypto\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\engine\eng_openssl.c">
+      <Filter>crypto\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\engine\eng_pkey.c">
+      <Filter>crypto\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\engine\eng_rdrand.c">
+      <Filter>crypto\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\engine\eng_table.c">
+      <Filter>crypto\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\engine\enginetest.c">
+      <Filter>crypto\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\engine\tb_asnmth.c">
+      <Filter>crypto\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\engine\tb_cipher.c">
+      <Filter>crypto\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\engine\tb_dh.c">
+      <Filter>crypto\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\engine\tb_digest.c">
+      <Filter>crypto\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\engine\tb_dsa.c">
+      <Filter>crypto\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\engine\tb_ecdh.c">
+      <Filter>crypto\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\engine\tb_ecdsa.c">
+      <Filter>crypto\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\engine\tb_pkmeth.c">
+      <Filter>crypto\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\hmac\hm_pmeth.c">
+      <Filter>crypto\hmac</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\hmac\hmac.c">
+      <Filter>crypto\hmac</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\hmac\hm_ameth.c">
+      <Filter>crypto\hmac</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\idea\i_cbc.c">
+      <Filter>crypto\idea</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\idea\i_cfb64.c">
+      <Filter>crypto\idea</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\idea\i_ecb.c">
+      <Filter>crypto\idea</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\idea\i_ofb64.c">
+      <Filter>crypto\idea</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\idea\i_skey.c">
+      <Filter>crypto\idea</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\jpake\jpake_err.c">
+      <Filter>crypto\jpake</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\jpake\jpake.c">
+      <Filter>crypto\jpake</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\krb5\krb5_asn.c">
+      <Filter>crypto\krb5</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ocsp\ocsp_err.c">
+      <Filter>crypto\ocsp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ocsp\ocsp_ext.c">
+      <Filter>crypto\ocsp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ocsp\ocsp_ht.c">
+      <Filter>crypto\ocsp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ocsp\ocsp_lib.c">
+      <Filter>crypto\ocsp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ocsp\ocsp_prn.c">
+      <Filter>crypto\ocsp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ocsp\ocsp_srv.c">
+      <Filter>crypto\ocsp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ocsp\ocsp_vfy.c">
+      <Filter>crypto\ocsp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ocsp\ocsp_asn.c">
+      <Filter>crypto\ocsp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ocsp\ocsp_cl.c">
+      <Filter>crypto\ocsp</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pem\pem_pk8.c">
+      <Filter>crypto\pem</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pem\pem_pkey.c">
+      <Filter>crypto\pem</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pem\pem_seal.c">
+      <Filter>crypto\pem</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pem\pem_sign.c">
+      <Filter>crypto\pem</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pem\pem_x509.c">
+      <Filter>crypto\pem</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pem\pem_xaux.c">
+      <Filter>crypto\pem</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pem\pvkfmt.c">
+      <Filter>crypto\pem</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pem\pem_all.c">
+      <Filter>crypto\pem</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pem\pem_err.c">
+      <Filter>crypto\pem</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pem\pem_info.c">
+      <Filter>crypto\pem</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pem\pem_lib.c">
+      <Filter>crypto\pem</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pem\pem_oth.c">
+      <Filter>crypto\pem</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rc2\tab.c">
+      <Filter>crypto\rc2</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rc2\rc2_cbc.c">
+      <Filter>crypto\rc2</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rc2\rc2_ecb.c">
+      <Filter>crypto\rc2</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rc2\rc2_skey.c">
+      <Filter>crypto\rc2</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rc2\rc2cfb64.c">
+      <Filter>crypto\rc2</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rc2\rc2ofb64.c">
+      <Filter>crypto\rc2</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rc4\rc4_skey.c">
+      <Filter>crypto\rc4</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rc4\rc4_utl.c">
+      <Filter>crypto\rc4</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rc4\rc4_enc.c">
+      <Filter>crypto\rc4</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rc5\rc5_ecb.c">
+      <Filter>crypto\rc5</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rc5\rc5_enc.c">
+      <Filter>crypto\rc5</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rc5\rc5_skey.c">
+      <Filter>crypto\rc5</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rc5\rc5cfb64.c">
+      <Filter>crypto\rc5</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rc5\rc5ofb64.c">
+      <Filter>crypto\rc5</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ripemd\rmd_one.c">
+      <Filter>crypto\ripemd</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ripemd\rmd160.c">
+      <Filter>crypto\ripemd</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ripemd\rmd_dgst.c">
+      <Filter>crypto\ripemd</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rsa\rsa_err.c">
+      <Filter>crypto\rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rsa\rsa_gen.c">
+      <Filter>crypto\rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rsa\rsa_lib.c">
+      <Filter>crypto\rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rsa\rsa_none.c">
+      <Filter>crypto\rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rsa\rsa_null.c">
+      <Filter>crypto\rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rsa\rsa_oaep.c">
+      <Filter>crypto\rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rsa\rsa_pk1.c">
+      <Filter>crypto\rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rsa\rsa_pmeth.c">
+      <Filter>crypto\rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rsa\rsa_prn.c">
+      <Filter>crypto\rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rsa\rsa_pss.c">
+      <Filter>crypto\rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rsa\rsa_saos.c">
+      <Filter>crypto\rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rsa\rsa_sign.c">
+      <Filter>crypto\rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rsa\rsa_ssl.c">
+      <Filter>crypto\rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rsa\rsa_x931.c">
+      <Filter>crypto\rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rsa\rsa_ameth.c">
+      <Filter>crypto\rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rsa\rsa_asn1.c">
+      <Filter>crypto\rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rsa\rsa_chk.c">
+      <Filter>crypto\rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rsa\rsa_crpt.c">
+      <Filter>crypto\rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rsa\rsa_depr.c">
+      <Filter>crypto\rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rsa\rsa_eay.c">
+      <Filter>crypto\rsa</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\store\str_mem.c">
+      <Filter>crypto\store</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\store\str_meth.c">
+      <Filter>crypto\store</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\store\str_err.c">
+      <Filter>crypto\store</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\store\str_lib.c">
+      <Filter>crypto\store</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\whrlpool\wp_block.c">
+      <Filter>crypto\whrlpool</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\whrlpool\wp_dgst.c">
+      <Filter>crypto\whrlpool</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\uid.c">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\o_time.c">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\cpt_err.c">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\cryptlib.c">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\cversion.c">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ebcdic.c">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ex_data.c">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\fips_ers.c">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\mem.c">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\mem_clr.c">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\mem_dbg.c">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\o_dir.c">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\o_fips.c">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\o_init.c">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\o_str.c">
+      <Filter>crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509v3\v3_conf.c">
+      <Filter>crypto\x509v3</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\cms\cms_asn1.c">
+      <Filter>crypto\cms</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\cms\cms_att.c">
+      <Filter>crypto\cms</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\cms\cms_cd.c">
+      <Filter>crypto\cms</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\cms\cms_dd.c">
+      <Filter>crypto\cms</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\cms\cms_enc.c">
+      <Filter>crypto\cms</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\cms\cms_env.c">
+      <Filter>crypto\cms</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\cms\cms_err.c">
+      <Filter>crypto\cms</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\cms\cms_ess.c">
+      <Filter>crypto\cms</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\cms\cms_io.c">
+      <Filter>crypto\cms</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\cms\cms_kari.c">
+      <Filter>crypto\cms</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\cms\cms_lib.c">
+      <Filter>crypto\cms</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\cms\cms_pwri.c">
+      <Filter>crypto\cms</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\cms\cms_sd.c">
+      <Filter>crypto\cms</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\cms\cms_smime.c">
+      <Filter>crypto\cms</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\aes\Makefile">
+      <Filter>crypto\aes</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\aes\README">
+      <Filter>crypto\aes</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\charmap.pl">
+      <Filter>crypto\asn1</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\asn1\Makefile">
+      <Filter>crypto\asn1</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bf\COPYRIGHT">
+      <Filter>crypto\bf</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bf\INSTALL">
+      <Filter>crypto\bf</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bf\Makefile">
+      <Filter>crypto\bf</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bf\README">
+      <Filter>crypto\bf</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bf\VERSION">
+      <Filter>crypto\bf</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bio\Makefile">
+      <Filter>crypto\bio</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bn\Makefile">
+      <Filter>crypto\bn</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bn\todo">
+      <Filter>crypto\bn</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\bn\bn.mul">
+      <Filter>crypto\bn</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\buffer\Makefile">
+      <Filter>crypto\buffer</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\camellia\Makefile">
+      <Filter>crypto\camellia</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\cmac\Makefile">
+      <Filter>crypto\cmac</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\comp\Makefile">
+      <Filter>crypto\comp</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\conf\keysets.pl">
+      <Filter>crypto\conf</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\conf\Makefile">
+      <Filter>crypto\conf</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\conf\README">
+      <Filter>crypto\conf</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\conf\ssleay.cnf">
+      <Filter>crypto\conf</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\typemap">
+      <Filter>crypto\des</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\VERSION">
+      <Filter>crypto\des</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\COPYRIGHT">
+      <Filter>crypto\des</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\DES.pm">
+      <Filter>crypto\des</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\des.pod">
+      <Filter>crypto\des</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\DES.xs">
+      <Filter>crypto\des</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\des-lib.com">
+      <Filter>crypto\des</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\FILES0">
+      <Filter>crypto\des</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\Imakefile">
+      <Filter>crypto\des</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\INSTALL">
+      <Filter>crypto\des</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\KERBEROS">
+      <Filter>crypto\des</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\Makefile">
+      <Filter>crypto\des</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\makefile.bc">
+      <Filter>crypto\des</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\README">
+      <Filter>crypto\des</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\times\586-100.lnx">
+      <Filter>crypto\des\times</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\times\686-200.fre">
+      <Filter>crypto\des\times</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\times\sparc.gcc">
+      <Filter>crypto\des\times</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\times\486-50.sol">
+      <Filter>crypto\des\times</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dh\dh192.pem">
+      <Filter>crypto\dh</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dh\dh512.pem">
+      <Filter>crypto\dh</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dh\dh1024.pem">
+      <Filter>crypto\dh</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dh\dh2048.pem">
+      <Filter>crypto\dh</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dh\dh4096.pem">
+      <Filter>crypto\dh</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dh\example">
+      <Filter>crypto\dh</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dh\generate">
+      <Filter>crypto\dh</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dh\Makefile">
+      <Filter>crypto\dh</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dsa\Makefile">
+      <Filter>crypto\dsa</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dsa\README">
+      <Filter>crypto\dsa</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\seed\Makefile">
+      <Filter>crypto\seed</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\srp\Makefile">
+      <Filter>crypto\srp</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\stack\Makefile">
+      <Filter>crypto\stack</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\txt_db\Makefile">
+      <Filter>crypto\txt_db</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ts\Makefile">
+      <Filter>crypto\ts</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ui\Makefile">
+      <Filter>crypto\ui</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509\Makefile">
+      <Filter>crypto\x509</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\x509v3\Makefile">
+      <Filter>crypto\x509v3</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pkcs7\Makefile">
+      <Filter>crypto\pkcs7</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pkcs12\Makefile">
+      <Filter>crypto\pkcs12</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pqueue\Makefile">
+      <Filter>crypto\pqueue</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rand\Makefile">
+      <Filter>crypto\rand</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\lhash\Makefile">
+      <Filter>crypto\lhash</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\lhash\num.pl">
+      <Filter>crypto\lhash</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\md2\Makefile">
+      <Filter>crypto\md2</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\md4\Makefile">
+      <Filter>crypto\md4</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\md5\Makefile">
+      <Filter>crypto\md5</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\mdc2\Makefile">
+      <Filter>crypto\mdc2</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\evp\Makefile">
+      <Filter>crypto\evp</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\err\Makefile">
+      <Filter>crypto\err</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\err\openssl.ec">
+      <Filter>crypto\err</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\modes\Makefile">
+      <Filter>crypto\modes</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\objects\objects.pl">
+      <Filter>crypto\objects</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\objects\objects.README">
+      <Filter>crypto\objects</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\objects\objxref.pl">
+      <Filter>crypto\objects</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\objects\Makefile">
+      <Filter>crypto\objects</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\objects\obj_dat.pl">
+      <Filter>crypto\objects</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\objects\obj_mac.num">
+      <Filter>crypto\objects</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dso\Makefile">
+      <Filter>crypto\dso</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dso\README">
+      <Filter>crypto\dso</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ec\Makefile">
+      <Filter>crypto\ec</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ecdh\Makefile">
+      <Filter>crypto\ecdh</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ecdsa\Makefile">
+      <Filter>crypto\ecdsa</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\engine\Makefile">
+      <Filter>crypto\engine</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\engine\README">
+      <Filter>crypto\engine</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\hmac\Makefile">
+      <Filter>crypto\hmac</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\idea\Makefile">
+      <Filter>crypto\idea</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\idea\version">
+      <Filter>crypto\idea</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\jpake\Makefile">
+      <Filter>crypto\jpake</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\krb5\Makefile">
+      <Filter>crypto\krb5</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ocsp\Makefile">
+      <Filter>crypto\ocsp</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pem\pkcs7.lis">
+      <Filter>crypto\pem</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pem\Makefile">
+      <Filter>crypto\pem</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\pem\message">
+      <Filter>crypto\pem</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rc2\rrc2.doc">
+      <Filter>crypto\rc2</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rc2\version">
+      <Filter>crypto\rc2</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rc2\Makefile">
+      <Filter>crypto\rc2</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rc4\rrc4.doc">
+      <Filter>crypto\rc4</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rc4\Makefile">
+      <Filter>crypto\rc4</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rc5\Makefile">
+      <Filter>crypto\rc5</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ripemd\Makefile">
+      <Filter>crypto\ripemd</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\ripemd\README">
+      <Filter>crypto\ripemd</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\rsa\Makefile">
+      <Filter>crypto\rsa</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\store\Makefile">
+      <Filter>crypto\store</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\store\README">
+      <Filter>crypto\store</Filter>
+    </None>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\cms\Makefile">
+      <Filter>crypto\cms</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\des\options.txt">
+      <Filter>crypto\des</Filter>
+    </Text>
+    <Text Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\dsa\fips186a.txt">
+      <Filter>crypto\dsa</Filter>
+    </Text>
+    <Text Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\objects\obj_xref.txt">
+      <Filter>crypto\objects</Filter>
+    </Text>
+    <Text Include="$(MSBuildThisFileDirectory)..\..\src\openssl\openssl-1.0.2a\crypto\objects\objects.txt">
+      <Filter>crypto\objects</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

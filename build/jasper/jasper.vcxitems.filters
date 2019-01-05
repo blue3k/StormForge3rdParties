@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\base\jas_cm.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\base\jas_debug.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\base\jas_getopt.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\base\jas_icc.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\base\jas_iccdata.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\base\jas_image.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\base\jas_init.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\base\jas_malloc.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\base\jas_seq.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\base\jas_stream.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\base\jas_string.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\base\jas_tmr.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\base\jas_tvp.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\base\jas_version.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\bmp\bmp_cod.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\bmp\bmp_dec.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\bmp\bmp_enc.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jp2\jp2_cod.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jp2\jp2_dec.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jp2\jp2_enc.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpc\jpc_bs.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpc\jpc_cs.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpc\jpc_dec.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpc\jpc_enc.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpc\jpc_math.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpc\jpc_mct.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpc\jpc_mqcod.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpc\jpc_mqdec.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpc\jpc_mqenc.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpc\jpc_qmfb.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpc\jpc_t1cod.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpc\jpc_t1dec.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpc\jpc_t1enc.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpc\jpc_t2cod.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpc\jpc_t2dec.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpc\jpc_t2enc.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpc\jpc_tagtree.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpc\jpc_tsfb.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpc\jpc_util.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpg\jpg_dec.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpg\jpg_dummy.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpg\jpg_enc.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpg\jpg_val.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\mif\mif_cod.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\pgx\pgx_cod.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\pgx\pgx_dec.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\pgx\pgx_enc.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\pnm\pnm_cod.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\pnm\pnm_dec.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\pnm\pnm_enc.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\ras\ras_cod.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\ras\ras_dec.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\ras\ras_enc.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\bmp\bmp_cod.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\bmp\bmp_enc.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\include\jasper\jasper.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\include\jasper\jas_cm.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\include\jasper\jas_config.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\include\jasper\jas_config2.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\include\jasper\jas_debug.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\include\jasper\jas_fix.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\include\jasper\jas_getopt.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\include\jasper\jas_icc.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\include\jasper\jas_image.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\include\jasper\jas_init.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\include\jasper\jas_malloc.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\include\jasper\jas_math.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\include\jasper\jas_seq.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\include\jasper\jas_stream.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\include\jasper\jas_string.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\include\jasper\jas_tmr.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\include\jasper\jas_tvp.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\include\jasper\jas_types.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\include\jasper\jas_version.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jp2\jp2_cod.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jp2\jp2_dec.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpc\jpc_bs.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpc\jpc_cod.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpc\jpc_cs.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpc\jpc_dec.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpc\jpc_enc.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpc\jpc_fix.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpc\jpc_flt.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpc\jpc_math.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpc\jpc_mct.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpc\jpc_mqcod.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpc\jpc_mqdec.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpc\jpc_mqenc.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpc\jpc_qmfb.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpc\jpc_t1cod.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpc\jpc_t1dec.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpc\jpc_t1enc.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpc\jpc_t2cod.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpc\jpc_t2dec.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpc\jpc_t2enc.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpc\jpc_tagtree.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpc\jpc_tsfb.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpc\jpc_util.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpg\jpg_cod.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpg\jpg_enc.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\jpg\jpg_jpeglib.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\mif\mif_cod.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\pgx\pgx_cod.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\pgx\pgx_enc.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\pnm\pnm_cod.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\pnm\pnm_enc.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\ras\ras_cod.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\ras\ras_enc.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{b07c59de-a44a-4ee5-ab54-f15524d4b5c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\libjasper">
+      <UniqueIdentifier>{894ec4ed-e20c-462c-a25d-7ace4648ea69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\libjasper\include">
+      <UniqueIdentifier>{3fdd8e18-1ac1-4201-a232-71c4eaeed81b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\libjasper\include\jasper">
+      <UniqueIdentifier>{ca380c0d-0b95-4558-b975-b51c9d93e67a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\jasper\jasper-1.900.1\src\libjasper\include\jasper\jas_config.h.in" />
+  </ItemGroup>
+</Project>

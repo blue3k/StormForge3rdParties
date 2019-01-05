@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{5C2AB6E0-1A01-425E-AFBB-9D1506AA7DE9}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\yaml\yaml-0.1.7\src\api.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\yaml\yaml-0.1.7\src\dumper.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\yaml\yaml-0.1.7\src\emitter.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\yaml\yaml-0.1.7\src\loader.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\yaml\yaml-0.1.7\src\parser.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\yaml\yaml-0.1.7\src\reader.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\yaml\yaml-0.1.7\src\scanner.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\yaml\yaml-0.1.7\src\writer.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\yaml\yaml-0.1.7\config.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\yaml\yaml-0.1.7\include\yaml.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\yaml\yaml-0.1.7\src\yaml_private.h" />
+  </ItemGroup>
+</Project>

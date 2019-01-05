@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{70A89D43-7D2B-47C5-93AE-219EBA2DCB1E}</ItemsProjectGuid>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_aux.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_close.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_codec.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_color.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_compress.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_dir.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_dirinfo.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_dirread.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_dirwrite.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_dumpmode.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_error.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_extension.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_fax3.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_fax3sm.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_flush.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_getimage.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_jbig.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_jpeg.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_jpeg_12.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_luv.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_lzma.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_lzw.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_next.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_ojpeg.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_open.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_packbits.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_pixarlog.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_predict.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_print.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_read.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_stream.cxx" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_strip.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_swab.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_thunder.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_tile.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_unix.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_version.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_warning.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_win32.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_write.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_zip.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\t4.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tiff.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tiffconf.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tiffconf.vc.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tiffconf.wince.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tiffio.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tiffio.hxx" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tiffiop.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tiffvers.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_dir.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_fax3.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tif_predict.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\uvcode.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)..\..\src\libtiff\tiff-4.0.3\libtiff\tiffconf.h.in" />
+  </ItemGroup>
+</Project>

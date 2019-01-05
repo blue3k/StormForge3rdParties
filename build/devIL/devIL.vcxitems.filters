@@ -1,0 +1,485 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\altivec_common.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\altivec_typeconversion.c" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_alloc.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_bits.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_blp.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_bmp.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_convbuff.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_convert.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_cut.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_dcx.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_dds.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_dds-save.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_devil.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_dicom.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_doom.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_dpx.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_endian.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_error.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_exr.cpp">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_fastconv.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_files.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_fits.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_ftx.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_gif.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_hdr.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_header.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_icns.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_icon.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_iff.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_ilbm.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_internal.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_io.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_iwi.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_jp2.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_jpeg.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_lif.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_manip.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_mdl.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_mng.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_mp3.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_neuquant.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_nvidia.cpp">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_pal.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_pcd.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_pcx.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_pic.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_pix.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_png.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_pnm.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_profiles.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_psd.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_psp.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_pxr.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_quantizer.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_raw.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_rawdata.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_register.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_rle.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_rot.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_sgi.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_size.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_squish.cpp">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_stack.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_states.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_sun.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_targa.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_texture.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_tiff.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_tpl.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_utility.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_utx.cpp">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_vtf.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_wal.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_wbmp.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_wdp.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\src\il_xpm.c">
+      <Filter>src-IL</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-ILU\src\ilu_error.c">
+      <Filter>src-ILU</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-ILU\src\ilu_filter.c">
+      <Filter>src-ILU</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-ILU\src\ilu_filter_rcg.c">
+      <Filter>src-ILU</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-ILU\src\ilu_internal.c">
+      <Filter>src-ILU</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-ILU\src\ilu_manip.c">
+      <Filter>src-ILU</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-ILU\src\ilu_mipmap.c">
+      <Filter>src-ILU</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-ILU\src\ilu_noise.c">
+      <Filter>src-ILU</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-ILU\src\ilu_region.c">
+      <Filter>src-ILU</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-ILU\src\ilu_rotate.c">
+      <Filter>src-ILU</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-ILU\src\ilu_scale.c">
+      <Filter>src-ILU</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-ILU\src\ilu_scale2d.c">
+      <Filter>src-ILU</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-ILU\src\ilu_scale3d.c">
+      <Filter>src-ILU</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-ILU\src\ilu_states.c">
+      <Filter>src-ILU</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-ILU\src\ilu_utilities.c">
+      <Filter>src-ILU</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src-ILU">
+      <UniqueIdentifier>{0384de7e-2226-4388-9378-957ad693cd4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src-ILU\include">
+      <UniqueIdentifier>{342dd978-7519-43d2-83bb-95db70840196}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src-ILU\include\ilu_error">
+      <UniqueIdentifier>{52d2d5ce-4e31-4e2c-9bae-d183a7c776f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src-IL">
+      <UniqueIdentifier>{146eb89d-c5ba-4a0a-9804-c082b578af68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src-IL\include">
+      <UniqueIdentifier>{cae851d8-f462-4f49-a9e8-e4cde7e200ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src-ILUT">
+      <UniqueIdentifier>{e55fc37f-56b2-45a4-8b93-cd4ac934b1f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src-ILUT\include">
+      <UniqueIdentifier>{630f7e29-9a7d-4c6e-b64e-f889d0017174}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{fa820171-55b7-4d3d-a1e4-f519f273b2ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\IL">
+      <UniqueIdentifier>{2c48988d-db4b-49d9-8d85-5beb8b54c0c5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-ILU\include\ilu_region.h">
+      <Filter>src-ILU\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-ILU\include\ilu_states.h">
+      <Filter>src-ILU\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-ILU\include\ilu_alloc.h">
+      <Filter>src-ILU\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-ILU\include\ilu_filter.h">
+      <Filter>src-ILU\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-ILU\include\ilu_internal.h">
+      <Filter>src-ILU\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-ILU\include\ilu_error\ilu_err-french.h">
+      <Filter>src-ILU\include\ilu_error</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-ILU\include\ilu_error\ilu_err-german.h">
+      <Filter>src-ILU\include\ilu_error</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-ILU\include\ilu_error\ilu_err-japanese.h">
+      <Filter>src-ILU\include\ilu_error</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-ILU\include\ilu_error\ilu_err-spanish.h">
+      <Filter>src-ILU\include\ilu_error</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-ILU\include\ilu_error\ilu_err-arabic.h">
+      <Filter>src-ILU\include\ilu_error</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-ILU\include\ilu_error\ilu_err-dutch.h">
+      <Filter>src-ILU\include\ilu_error</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-ILU\include\ilu_error\ilu_err-english.h">
+      <Filter>src-ILU\include\ilu_error</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\include\il_pal.h">
+      <Filter>src-IL\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\include\il_pcx.h">
+      <Filter>src-IL\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\include\il_pic.h">
+      <Filter>src-IL\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\include\il_pnm.h">
+      <Filter>src-IL\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\include\il_psd.h">
+      <Filter>src-IL\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\include\il_psp.h">
+      <Filter>src-IL\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\include\il_q2pal.h">
+      <Filter>src-IL\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\include\il_register.h">
+      <Filter>src-IL\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\include\il_rle.h">
+      <Filter>src-IL\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\include\il_sgi.h">
+      <Filter>src-IL\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\include\il_stack.h">
+      <Filter>src-IL\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\include\il_states.h">
+      <Filter>src-IL\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\include\il_targa.h">
+      <Filter>src-IL\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\include\il_utx.h">
+      <Filter>src-IL\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\include\il_vtf.h">
+      <Filter>src-IL\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\include\il_wdp.h">
+      <Filter>src-IL\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\include\altivec_common.h">
+      <Filter>src-IL\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\include\altivec_typeconversion.h">
+      <Filter>src-IL\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\include\il_alloc.h">
+      <Filter>src-IL\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\include\il_bits.h">
+      <Filter>src-IL\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\include\il_bmp.h">
+      <Filter>src-IL\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\include\il_dcx.h">
+      <Filter>src-IL\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\include\il_dds.h">
+      <Filter>src-IL\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\include\il_doompal.h">
+      <Filter>src-IL\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\include\il_dpx.h">
+      <Filter>src-IL\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\include\il_endian.h">
+      <Filter>src-IL\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\include\il_exr.h">
+      <Filter>src-IL\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\include\il_files.h">
+      <Filter>src-IL\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\include\il_gif.h">
+      <Filter>src-IL\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\include\il_hdr.h">
+      <Filter>src-IL\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\include\il_icns.h">
+      <Filter>src-IL\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\include\il_icon.h">
+      <Filter>src-IL\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\include\il_internal.h">
+      <Filter>src-IL\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\include\il_jp2.h">
+      <Filter>src-IL\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\include\il_jpeg.h">
+      <Filter>src-IL\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\include\il_lif.h">
+      <Filter>src-IL\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\include\il_manip.h">
+      <Filter>src-IL\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-IL\include\il_mdl.h">
+      <Filter>src-IL\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-ILUT\include\ilut_internal.h">
+      <Filter>src-ILUT\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-ILUT\include\ilut_opengl.h">
+      <Filter>src-ILUT\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-ILUT\include\ilut_states.h">
+      <Filter>src-ILUT\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\src-ILUT\include\ilut_allegro.h">
+      <Filter>src-ILUT\include</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\include\IL\devil_cpp_wrapper.hpp">
+      <Filter>include\IL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\include\IL\devil_internal_exports.h">
+      <Filter>include\IL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\include\IL\il.h">
+      <Filter>include\IL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\include\IL\ilu.h">
+      <Filter>include\IL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\include\IL\ilu_region.h">
+      <Filter>include\IL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\include\IL\ilut.h">
+      <Filter>include\IL</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\src\DevIL\devil-1.7.8\include\IL\ilut_config.h">
+      <Filter>include\IL</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

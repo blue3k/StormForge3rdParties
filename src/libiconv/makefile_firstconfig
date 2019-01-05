@@ -1,0 +1,31 @@
+
+#This make should be run with gnu only environment.
+
+
+###################################################
+
+
+###################################################
+
+OUTPUT_NAME = libiconv
+ICONV_SRC_PATH = libiconv-1.14
+
+
+.PHONY: build
+
+
+
+build : 
+	echo %OUTPUT_NAME% done.....
+	cd $(ICONV_SRC_PATH) && ./configure --prefix=$(PWD)/../../intermediate/ --disable-nls
+	cd $(ICONV_SRC_PATH) && $(MAKE)
+	cd $(ICONV_SRC_PATH) && $(MAKE) install
+	
+
+
+
+
+#echo $(DEFINES)
+#echo $(OBJS)
+#echo $(SRCS)
+
