@@ -56,10 +56,11 @@ add_definitions(-DHAVE_SYS_TYPES_H=1)
 
 
 
-# include_directories(AFTER 
-	# src/curl/curl
-	# 3rdParties/src/libiconv/libiconv-1.14/include
-	# 3rdParties/src/libpng/lpng1617
+include_directories(AFTER 
+	src/curl/curl
+	src/libiconv/libiconv-1.15/include
+	src/libpng/lpng1617
+)
 	# Engine/Src/SFCore
 	# Engine/Src/SFEngine
 	# Engine/Src/Protocol
@@ -76,9 +77,10 @@ add_definitions(-DHAVE_SYS_TYPES_H=1)
 
 
 
+add_subdirectory(src/src/libiconv)
 add_subdirectory(src/src/curl/curl)
-add_subdirectory(Engine/Src/SFEngine)
-add_subdirectory(Engine/Src/Protocol)
+add_subdirectory(src/freetype)
+add_subdirectory(src/jasper/jasper)
 add_subdirectory(Engine/Src/SFEngineDLL)
 
 
