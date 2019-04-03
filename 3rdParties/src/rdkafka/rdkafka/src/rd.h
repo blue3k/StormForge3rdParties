@@ -51,13 +51,7 @@
 #include "tinycthread.h"
 #include "rdsysqueue.h"
 
-#ifdef _MSC_VER
-/* Visual Studio */
-#include "win32_config.h"
-#else
-/* POSIX / UNIX based systems */
-#include "../config.h" /* mklove output */
-#endif
+#include "../../rdkafka_config.h" /* mklove output */
 
 #ifdef _MSC_VER
 /* Win32/Visual Studio */

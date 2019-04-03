@@ -1,6 +1,10 @@
 
 
-project(lcms2)
+
+include_directories(AFTER 
+	lcms2-2.7/include
+)
+
 
 
 set(SRC_FILES

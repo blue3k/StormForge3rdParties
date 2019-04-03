@@ -31,7 +31,7 @@
  */
 #pragma once
 
-#define WITH_SSL 1
+//#define WITH_SSL 1
 #define WITH_ZLIB 1
 #define WITH_SNAPPY 1
 #define WITH_SASL_SCRAM 1

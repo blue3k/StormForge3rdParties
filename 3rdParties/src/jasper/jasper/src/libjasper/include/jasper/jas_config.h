@@ -1,7 +1,7 @@
 #ifndef JAS_CONFIG_H
 #define JAS_CONFIG_H
 
-#cmakedefine JAS_DLL 1
+#undef JAS_DLL
 
 
 #include <jasper/jas_dll.h>
@@ -15,20 +15,22 @@
 #if defined(JAS_CONFIGURE)
 
 /* This preprocessor symbol identifies the version of JasPer. */
-#define	JAS_VERSION "@JAS_VERSION@"
+#define	JAS_VERSION "1.0"
 
-#cmakedefine JAS_HAVE_FCNTL_H 1
-#cmakedefine JAS_HAVE_IO_H 1
-#cmakedefine JAS_HAVE_UNISTD_H 1
-#cmakedefine JAS_HAVE_WINDOWS_H 1
-#cmakedefine JAS_HAVE_SYS_TIME_H 1
-#cmakedefine JAS_HAVE_SYS_TYPES_H 1
+#define JAS_HAVE_FCNTL_H 1
+#define JAS_HAVE_IO_H 1
+#define JAS_HAVE_UNISTD_H 1
+#if defined(WIN32) || defined(WIN64)
+#define JAS_HAVE_WINDOWS_H 1
+#endif // win
+#define JAS_HAVE_SYS_TIME_H 1
+#define JAS_HAVE_SYS_TYPES_H 1
 
-#cmakedefine JAS_HAVE_GETTIMEOFDAY 1
-#cmakedefine JAS_HAVE_GETRUSAGE 1
+#define JAS_HAVE_GETTIMEOFDAY 1
+#define JAS_HAVE_GETRUSAGE 1
 
-#cmakedefine JAS_HAVE_GL_GLUT_H 1
-#cmakedefine JAS_HAVE_GLUT_H 1
+#define JAS_HAVE_GL_GLUT_H 1
+#define JAS_HAVE_GLUT_H 1
 
 #define JAS_HAVE_SNPRINTF	1
 

@@ -1,11 +1,9 @@
 
 
-project(tinyxml)
 
 
 set(SRC_FILES
     src/tinyxml2.cpp
-    src/tinyxml.h
 )
 
 

@@ -126,7 +126,7 @@ inline static int jas_int_asr(int x, int n)
 {
 	// Ensure that the shift of a negative value appears to behave as a
 	// signed arithmetic shift.
-	assert(((-1) >> 1) == -1);
+	assert(((unsigned)(-1) >> 1) == -1);
 	assert(n >= 0);
 	// The behavior is undefined when x is negative. */
 	// We tacitly assume the behavior is equivalent to a signed

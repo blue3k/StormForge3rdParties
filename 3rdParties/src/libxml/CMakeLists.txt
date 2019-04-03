@@ -1,59 +1,54 @@
 
 
-
-
-
-project(libxml)
-
-
-
-
+include_directories(AFTER 
+	./
+)
 
 set(SRC_FILES
-	libmxl2/buf.c 
-	libmxl2/c14n.c 
-	libmxl2/catalog.c 
-	libmxl2/chvalid.c 
-	libmxl2/debugXML.c 
-	libmxl2/dict.c 
-	libmxl2/DOCBparser.c 
-	libmxl2/encoding.c 
-	libmxl2/entities.c 
-	libmxl2/error.c 
-	libmxl2/globals.c 
-	libmxl2/hash.c 
-	libmxl2/HTMLparser.c 
-	libmxl2/HTMLtree.c 
-	libmxl2/legacy.c 
-	libmxl2/list.c 
-	libmxl2/nanoftp.c 
-	libmxl2/nanohttp.c 
-	libmxl2/parser.c 
-	libmxl2/parserInternals.c 
-	libmxl2/pattern.c 
-	libmxl2/relaxng.c 
-	libmxl2/SAX2.c 
-	libmxl2/SAX.c 
-	libmxl2/schematron.c 
-	libmxl2/threads.c 
-	libmxl2/tree.c 
-	libmxl2/uri.c 
-	libmxl2/valid.c 
-	libmxl2/xinclude.c 
-	libmxl2/xlink.c 
-	libmxl2/xmlIO.c 
-	libmxl2/xmlmemory.c 
-	libmxl2/xmlreader.c 
-	libmxl2/xmlregexp.c 
-	libmxl2/xmlmodule.c 
-	libmxl2/xmlsave.c 
-	libmxl2/xmlschemas.c 
-	libmxl2/xmlschemastypes.c 
-	libmxl2/xmlunicode.c 
-	libmxl2/xmlwriter.c 
-	libmxl2/xpath.c 
-	libmxl2/xpointer.c 
-	libmxl2/xmlstring.c
+	libxml2/buf.c 
+	libxml2/c14n.c 
+	libxml2/catalog.c 
+	libxml2/chvalid.c 
+	libxml2/debugXML.c 
+	libxml2/dict.c 
+	libxml2/DOCBparser.c 
+	libxml2/encoding.c 
+	libxml2/entities.c 
+	libxml2/error.c 
+	libxml2/globals.c 
+	libxml2/hash.c 
+	libxml2/HTMLparser.c 
+	libxml2/HTMLtree.c 
+	libxml2/legacy.c 
+	libxml2/list.c 
+	libxml2/nanoftp.c 
+	libxml2/nanohttp.c 
+	libxml2/parser.c 
+	libxml2/parserInternals.c 
+	libxml2/pattern.c 
+	libxml2/relaxng.c 
+	libxml2/SAX2.c 
+	libxml2/SAX.c 
+	libxml2/schematron.c 
+	libxml2/threads.c 
+	libxml2/tree.c 
+	libxml2/uri.c 
+	libxml2/valid.c 
+	libxml2/xinclude.c 
+	libxml2/xlink.c 
+	libxml2/xmlIO.c 
+	libxml2/xmlmemory.c 
+	libxml2/xmlreader.c 
+	libxml2/xmlregexp.c 
+	libxml2/xmlmodule.c 
+	libxml2/xmlsave.c 
+	libxml2/xmlschemas.c 
+	libxml2/xmlschemastypes.c 
+	libxml2/xmlunicode.c 
+	libxml2/xmlwriter.c 
+	libxml2/xpath.c 
+	libxml2/xpointer.c 
+	libxml2/xmlstring.c
 )
 
 
