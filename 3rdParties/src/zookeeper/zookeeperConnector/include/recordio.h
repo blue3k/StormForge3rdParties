@@ -19,6 +19,7 @@
 #define __RECORDIO_H__
 
 #include <sys/types.h>
+#include <stdint.h>
 #ifndef WIN32
 #define STRUCT_INITIALIZER(l,r) .l = r
 #else

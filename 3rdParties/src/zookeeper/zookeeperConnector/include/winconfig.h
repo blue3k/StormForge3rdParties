@@ -161,16 +161,19 @@
 #ifndef _CRT_SECURE_NO_WARNINGS
 #define _CRT_SECURE_NO_WARNINGS
 #endif
+#ifndef WIN32_LEAN_AND_MEAN
 #define WIN32_LEAN_AND_MEAN
+#endif
 #include <Windows.h>
 #include <Winsock2.h>
-#include <winstdint.h>
+//#include <winstdint.h>
 #include <process.h>
 #include <ws2tcpip.h>
 #undef AF_INET6
 #undef min
 #undef max
 
+#include <stdint.h>
 #include <errno.h>
 
 #define strtok_r strtok_s

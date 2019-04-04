@@ -19,6 +19,7 @@ include_directories(AFTER
 	src/libiconv/libiconv-1.15/include
 	src/mbedtls/mbedtls-2.16.0/include
 	src/libpng/lpng1617
+	src/zlib/zlib-1.2.8
 )
 
 
@@ -40,6 +41,7 @@ add_subdirectory(src/rdkafka)
 add_subdirectory(src/tinyxml)
 add_subdirectory(src/zlib)
 add_subdirectory(src/yaml)
+add_subdirectory(src/zookeeper)
 
 
 #install(TARGETS src/libiconv/iconv curl freetype gtest jasper jpeg jsoncpp lcms mng tiff xml png mbedtls rdkafka tinyxml zlib yaml DESTINATION bin/lib)

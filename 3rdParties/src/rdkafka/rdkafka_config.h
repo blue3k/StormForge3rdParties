@@ -24,7 +24,9 @@
 
 
 #define WITH_ZLIB 1
-#define WITH_LIBDL 1
+
+//#define WITH_LIBDL 1
+
 #define WITH_PLUGINS 1
 #define WITH_SOCKEM 1
 #define WITH_SNAPPY 1

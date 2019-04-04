@@ -1,6 +1,7 @@
 #ifndef __LIBXML_WIN32_CONFIG__
 #define __LIBXML_WIN32_CONFIG__
 
+#define HAVE_STDINT_H
 #define HAVE_CTYPE_H
 #define HAVE_STDARG_H
 #define HAVE_MALLOC_H
