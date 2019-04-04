@@ -1,6 +1,7 @@
 
 
 include_directories(AFTER 
+	./
 	yaml-0.1.7/include
 	yaml-0.1.7/src
 )

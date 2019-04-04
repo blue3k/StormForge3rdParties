@@ -42,6 +42,6 @@ add_subdirectory(src/zlib)
 add_subdirectory(src/yaml)
 
 
-#install 
+#install(TARGETS src/libiconv/iconv curl freetype gtest jasper jpeg jsoncpp lcms mng tiff xml png mbedtls rdkafka tinyxml zlib yaml DESTINATION bin/lib)
 
 

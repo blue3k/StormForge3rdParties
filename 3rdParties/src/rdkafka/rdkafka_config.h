@@ -1,7 +1,7 @@
 #pragma once
 
-#define HAVE_ATOMICS_32
-#define HAVE_ATOMICS_32_SYNC
+#define HAVE_ATOMICS_32 1
+#define HAVE_ATOMICS_32_SYNC 1
 
 #if (HAVE_ATOMICS_32)
 # if (HAVE_ATOMICS_32_SYNC)
@@ -11,8 +11,8 @@
 # endif
 #endif
 
-#define HAVE_ATOMICS_64
-#define HAVE_ATOMICS_64_SYNC
+#define HAVE_ATOMICS_64 1
+#define HAVE_ATOMICS_64_SYNC 1
 
 #if (HAVE_ATOMICS_64)
 # if (HAVE_ATOMICS_64_SYNC)
@@ -23,23 +23,19 @@
 #endif
 
 
-#define WITH_ZLIB
-#define WITH_LIBDL
-#define WITH_PLUGINS
+#define WITH_ZLIB 1
+#define WITH_LIBDL 1
+#define WITH_PLUGINS 1
+#define WITH_SOCKEM 1
 #define WITH_SNAPPY 1
 #define WITH_SASL_SCRAM 1
 #define ENABLE_DEVEL 0
 #define SOLIB_EXT ".dll"
 
 
-#define WITH_ZLIB
-#cmakedefine01 WITH_LIBDL
-#cmakedefine01 WITH_PLUGINS
-#define WITH_SNAPPY 1
-#define WITH_SOCKEM 1
-#cmakedefine01 WITH_SSL
-#cmakedefine01 WITH_SASL
-#cmakedefine01 WITH_SASL_SCRAM
-#cmakedefine01 WITH_SASL_CYRUS
-#cmakedefine01 HAVE_REGEX
-#cmakedefine01 HAVE_STRNDUP
+// #cmakedefine01 WITH_SSL
+// #cmakedefine01 WITH_SASL
+// #cmakedefine01 WITH_SASL_SCRAM
+// #cmakedefine01 WITH_SASL_CYRUS
+#define HAVE_REGEX 1
+#define HAVE_STRNDUP 1
