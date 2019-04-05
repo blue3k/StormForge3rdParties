@@ -133,8 +133,10 @@ static int isnan (double d) {
 /* Threading API to use should be specified here for compatibility reasons.
    This is however best specified on the compiler's command-line. */
 #if defined(LIBXML_THREAD_ENABLED)
-#if !defined(HAVE_PTHREAD_H) && !defined(HAVE_WIN32_THREADS) && !defined(_WIN32_WCE)
-#define HAVE_WIN32_THREADS
+#ifdef WIN32
+#	define HAVE_WIN32_THREADS
+#else
+#	define HAVE_PTHREAD_H
 #endif
 #endif
 
