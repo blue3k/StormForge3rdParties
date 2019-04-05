@@ -52,7 +52,7 @@
 #endif
 
 #ifdef HAVE_IO_H
-# include <asm/io.h>
+# include <sys/io.h>
 #endif
 
 #include "tiffiop.h"

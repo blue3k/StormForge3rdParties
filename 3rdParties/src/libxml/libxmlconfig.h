@@ -22,7 +22,7 @@
 #define HAVE_FCNTL_H
 #define HAVE_VA_COPY
 
-#if __ANDROID__ || __IOS__
+#if __ANDROID__ || __IOS__ || _LINUX_
 
 #define HAVE_UNISTD_H
 #define HAVE_NETINET_IN_H

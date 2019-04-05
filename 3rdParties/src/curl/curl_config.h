@@ -15,6 +15,8 @@
 #define OS "windows"
 #elif defined(__IOS__)
 #define OS "IOS"
+#else
+#define OS "Linux"
 #endif
 
 #if defined(_WIN32) || defined(_WIN64)
