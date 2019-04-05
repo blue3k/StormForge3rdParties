@@ -3,6 +3,8 @@
 set(WITH_ZLIB ON)
 set(WITH_LIBDL ON)
 set(WITH_PLUGINS ON)
+set(HAVE_REGEX OFF)
+
 
 include_directories(AFTER 
 	./
@@ -96,6 +98,8 @@ endif()
 
 add_library(rdkafka ${SRC_FILES})
 
+
+add_definitions(-DLIBRDKAFKA_STATICLIB)
 
 
 # add_subdirectory(rdkafka/src)

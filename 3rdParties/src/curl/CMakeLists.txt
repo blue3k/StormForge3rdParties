@@ -4,9 +4,6 @@
 #set(CURL_STATICLIB ON)
 
 
-
-
-
 include_directories(
 	./
 	curl/lib

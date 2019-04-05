@@ -7,7 +7,15 @@ include_directories(AFTER
 	zookeeperConnector/include
 )
 
-add_definitions(-D_WINDOWS)
+
+# Identity of this package.
+add_definitions(-DPACKAGE_NAME="zookeeper C client")
+add_definitions(-DPACKAGE_TARNAME="zookeeper")
+add_definitions(-DPACKAGE_VERSION="3.4.10")
+add_definitions(-DPACKAGE_STRING="zookeeper C client 3.4.10")
+add_definitions(-DPACKAGE_BUGREPORT="user@zookeeper.apache.org")
+add_definitions(-DPACKAGE_URL="")
+
 
 set(SRC_FILES
     zookeeperConnector/generated/zookeeper.jute.c

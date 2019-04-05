@@ -25,19 +25,28 @@
 
 #define WITH_ZLIB 1
 
-//#define WITH_LIBDL 1
+#ifndef WIN32
+#define WITH_LIBDL 1
+#endif
 
 #define WITH_PLUGINS 1
 #define WITH_SOCKEM 1
 #define WITH_SNAPPY 1
 #define WITH_SASL_SCRAM 1
 #define ENABLE_DEVEL 0
-#define SOLIB_EXT ".dll"
 
+#ifndef WIN32
+#define SOLIB_EXT ".dll"
+#else
+#define SOLIB_EXT ".so"
+#endif
 
 // #cmakedefine01 WITH_SSL
 // #cmakedefine01 WITH_SASL
 // #cmakedefine01 WITH_SASL_SCRAM
 // #cmakedefine01 WITH_SASL_CYRUS
+#ifndef WIN32
 #define HAVE_REGEX 1
 #define HAVE_STRNDUP 1
+#else
+#endif
