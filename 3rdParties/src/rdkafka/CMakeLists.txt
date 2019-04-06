@@ -96,16 +96,17 @@ if(NOT HAVE_REGEX)
   list(APPEND SRC_FILES rdkafka/src/regexp.c)
 endif()
 
-add_library(rdkafka ${SRC_FILES})
-
-
 add_definitions(-DLIBRDKAFKA_STATICLIB)
 
 
-# add_subdirectory(rdkafka/src)
-# add_subdirectory(rdkafka/src-cpp)
+add_library(rdkafka ${SRC_FILES})
 
-#add_library(rdkafka ${SRC_FILES})
+
+
+install (TARGETS rdkafka
+         ARCHIVE DESTINATION lib COMPONENT SF3rdParties
+         LIBRARY DESTINATION lib COMPONENT SF3rdParties
+         RUNTIME DESTINATION bin COMPONENT SF3rdParties)
 
 
 

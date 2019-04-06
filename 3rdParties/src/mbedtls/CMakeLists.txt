@@ -101,6 +101,11 @@ set(src_tls
 
 add_library(mbedtls ${src_crypto} ${src_x509} ${src_tls})
 
-#add_subdirectory(mbedtls-2.16.0/library)
+
+install (TARGETS mbedtls
+         ARCHIVE DESTINATION lib COMPONENT SF3rdParties
+         LIBRARY DESTINATION lib COMPONENT SF3rdParties
+         RUNTIME DESTINATION bin COMPONENT SF3rdParties)
+
 
 

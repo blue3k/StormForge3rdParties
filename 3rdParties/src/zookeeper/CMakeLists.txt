@@ -35,6 +35,10 @@ set(SRC_FILES
 
 add_library(zookeeper ${SRC_FILES})
 
+install (TARGETS zookeeper
+         ARCHIVE DESTINATION lib COMPONENT SF3rdParties
+         LIBRARY DESTINATION lib COMPONENT SF3rdParties
+         RUNTIME DESTINATION bin COMPONENT SF3rdParties)
 
 
 

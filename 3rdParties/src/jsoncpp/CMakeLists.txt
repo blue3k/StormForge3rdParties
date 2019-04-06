@@ -21,5 +21,11 @@ set(SRC_FILES
 add_library(jsoncpp ${SRC_FILES})
 
 
+install (TARGETS jsoncpp
+         ARCHIVE DESTINATION lib COMPONENT SF3rdParties
+         LIBRARY DESTINATION lib COMPONENT SF3rdParties
+         RUNTIME DESTINATION bin COMPONENT SF3rdParties)
+
+
 
 
