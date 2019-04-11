@@ -15,13 +15,13 @@ add_definitions(-DPACKAGE_VERSION="3.4.10")
 add_definitions(-DPACKAGE_STRING="zookeeper C client 3.4.10")
 add_definitions(-DPACKAGE_BUGREPORT="user@zookeeper.apache.org")
 add_definitions(-DPACKAGE_URL="")
-
+add_definitions(-DTHREADED)
 
 set(SRC_FILES
     zookeeperConnector/generated/zookeeper.jute.c
 	zookeeperConnector/src/hashtable/hashtable.c
 	zookeeperConnector/src/hashtable/hashtable_itr.c
-	zookeeperConnector/src/cli.c
+	#zookeeperConnector/src/cli.c
 	#zookeeperConnector/src/mt_adaptor.c
 	zookeeperConnector/src/recordio.c
 	zookeeperConnector/src/st_adaptor.c
