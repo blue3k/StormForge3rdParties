@@ -56,9 +56,9 @@ memcached_server_list_st memcached_servers_parse(const char *server_strings)
 
   end_ptr= server_strings + strlen(server_strings);
 
-  for (begin_ptr= server_strings, string= (char *)index(server_strings, ','); 
+  for (begin_ptr= server_strings, string= (char *)strchr(server_strings, ',');
        begin_ptr != end_ptr; 
-       string= (char *)index(begin_ptr, ','))
+       string= (char *)strchr(begin_ptr, ','))
   {
     char buffer[HUGE_STRING_LEN];
     char *ptr, *ptr2;
@@ -78,7 +78,7 @@ memcached_server_list_st memcached_servers_parse(const char *server_strings)
       begin_ptr= end_ptr;
     }
 
-    ptr= index(buffer, ':');
+    ptr= strchr(buffer, ':');
 
     in_port_t port= 0;
     if (ptr)
@@ -95,9 +95,9 @@ memcached_server_list_st memcached_servers_parse(const char *server_strings)
         return NULL;
       }
 
-      ptr2= index(ptr, ' ');
+      ptr2= strchr(ptr, ' ');
       if (! ptr2)
-        ptr2= index(ptr, ':');
+        ptr2= strchr(ptr, ':');
 
       if (ptr2)
       {
