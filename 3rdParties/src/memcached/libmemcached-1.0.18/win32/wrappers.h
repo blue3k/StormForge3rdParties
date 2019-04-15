@@ -12,17 +12,26 @@
 #pragma once 
 
 #include <inttypes.h>
+#include <windows.h>
+#include <winsock2.h>
+#include <Mswsock.h>
+#include <Ws2tcpip.h>
+#include <BaseTsd.h>
+#include <ciso646>
+#include <time.h>
 
 /*
  * One of the Windows headers define interface as a macro, but that
  * is causing problems with the member named "interface" in some of the
  * structs.
- */
-#undef interface
+*/
+//#undef interface
+//
+//#undef malloc
+//#undef realloc
+typedef int pid_t;
 
-#undef malloc
-#undef realloc
-
+#include "SFWinport.h"
 
 /*
  * WinSock use a separate range for error codes. Let's just map to the

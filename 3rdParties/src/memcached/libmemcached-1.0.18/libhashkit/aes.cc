@@ -129,7 +129,7 @@ hashkit_string_st* aes_encrypt(aes_key_t *_aes_key,
     }
 
     uint8_t block[AES_BLOCK_SIZE];
-    char pad_len= AES_BLOCK_SIZE - (source_length - AES_BLOCK_SIZE*num_blocks);
+    char pad_len= static_cast<char>(AES_BLOCK_SIZE - (source_length - AES_BLOCK_SIZE*num_blocks));
     memcpy(block, source, 16 -pad_len);
     memset(block + AES_BLOCK_SIZE -pad_len, pad_len, pad_len);
     rijndaelEncrypt(_aes_key->encode_key.rk, _aes_key->encode_key.nr, block, (uint8_t*) (dest));

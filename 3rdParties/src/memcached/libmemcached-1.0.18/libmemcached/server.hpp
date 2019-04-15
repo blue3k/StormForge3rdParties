@@ -79,7 +79,7 @@ static inline void memcached_mark_server_for_timeout(memcached_instance_st* serv
     if (server->server_timeout_counter_query_id != server->root->query_id)
     {
       server->server_timeout_counter++;
-      server->server_timeout_counter_query_id= server->root->query_id;
+      server->server_timeout_counter_query_id= static_cast<uint32_t>(server->root->query_id);
     }
 
     if (server->server_timeout_counter >= server->root->server_timeout_limit)

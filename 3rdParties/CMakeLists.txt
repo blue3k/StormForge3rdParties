@@ -37,11 +37,13 @@ add_subdirectory(src/libtiff)
 add_subdirectory(src/libxml)
 add_subdirectory(src/libpng)
 add_subdirectory(src/mbedtls)
+add_subdirectory(src/memcached)
 add_subdirectory(src/rdkafka)
 add_subdirectory(src/tinyxml)
 add_subdirectory(src/zlib)
 add_subdirectory(src/yaml)
 add_subdirectory(src/zookeeper)
+add_subdirectory(src/SFWinport)
 
 
 #install(TARGETS src/libiconv/iconv curl freetype gtest jasper jpeg jsoncpp lcms mng tiff xml png mbedtls rdkafka tinyxml zlib yaml DESTINATION bin/lib)

@@ -1,9 +1,8 @@
 /*  vim:expandtab:shiftwidth=2:tabstop=2:smarttab:
- * 
- *  Libmemcached library
  *
- *  Copyright (C) 2011 Data Differential, http://datadifferential.com/
- *  Copyright (C) 2006-2009 Brian Aker, Trond Norbye All rights reserved.
+ *  HashKit library
+ *
+ *  Copyright (C) 2012 Data Differential, http://datadifferential.com/
  *
  *  Redistribution and use in source and binary forms, with or without
  *  modification, are permitted provided that the following conditions are
@@ -35,18 +34,7 @@
  *
  */
 
+
 #pragma once
 
-#ifdef __cplusplus
-extern "C" {
-#endif
-
-
-#define LIBMEMCACHED_WITH_SASL_SUPPORT 0
-
-#define LIBMEMCACHED_VERSION_STRING "1.0.18"
-#define LIBMEMCACHED_VERSION_HEX 0x01000018
-
-#ifdef __cplusplus
-}
-#endif
+#include "mem_config.h"
