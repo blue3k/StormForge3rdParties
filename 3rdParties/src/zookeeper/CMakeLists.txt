@@ -22,9 +22,9 @@ set(SRC_FILES
 	zookeeperConnector/src/hashtable/hashtable.c
 	zookeeperConnector/src/hashtable/hashtable_itr.c
 	#zookeeperConnector/src/cli.c
-	#zookeeperConnector/src/mt_adaptor.c
+	zookeeperConnector/src/mt_adaptor.c
 	zookeeperConnector/src/recordio.c
-	zookeeperConnector/src/st_adaptor.c
+	#zookeeperConnector/src/st_adaptor.c
 	zookeeperConnector/src/winport.c
 	zookeeperConnector/src/zk_hashtable.c
 	zookeeperConnector/src/zk_log.c
