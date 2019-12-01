@@ -12,98 +12,98 @@ include_directories(AFTER
 
 
 set(SRC_FILES
-    rdkafka/src/crc32c.c
-    rdkafka/src/rdaddr.c
-    rdkafka/src/rdavl.c
-    rdkafka/src/rdbuf.c
-    rdkafka/src/rdcrc32.c
-    rdkafka/src/rdkafka.c
-    rdkafka/src/rdkafka_assignor.c
-    rdkafka/src/rdkafka_broker.c
-    rdkafka/src/rdkafka_buf.c
-    rdkafka/src/rdkafka_cgrp.c
-    rdkafka/src/rdkafka_conf.c
-    rdkafka/src/rdkafka_event.c
-    rdkafka/src/rdkafka_feature.c
-    rdkafka/src/rdkafka_lz4.c
-    rdkafka/src/rdkafka_metadata.c
-    rdkafka/src/rdkafka_metadata_cache.c
-    rdkafka/src/rdkafka_msg.c
-    rdkafka/src/rdkafka_msgset_reader.c
-    rdkafka/src/rdkafka_msgset_writer.c
-    rdkafka/src/rdkafka_offset.c
-    rdkafka/src/rdkafka_op.c
-    rdkafka/src/rdkafka_partition.c
-    rdkafka/src/rdkafka_pattern.c
-    rdkafka/src/rdkafka_queue.c
-    rdkafka/src/rdkafka_range_assignor.c
-    rdkafka/src/rdkafka_request.c
-    rdkafka/src/rdkafka_roundrobin_assignor.c
-    rdkafka/src/rdkafka_sasl.c
-    rdkafka/src/rdkafka_sasl_plain.c
-    rdkafka/src/rdkafka_subscription.c
-    rdkafka/src/rdkafka_timer.c
-    rdkafka/src/rdkafka_topic.c
-    rdkafka/src/rdkafka_transport.c
-    rdkafka/src/rdkafka_interceptor.c
-    rdkafka/src/rdlist.c
-    rdkafka/src/rdlog.c
-    rdkafka/src/rdports.c
-    rdkafka/src/rdrand.c
-    rdkafka/src/rdregex.c
-    rdkafka/src/rdstring.c
-    rdkafka/src/rdunittest.c
-    rdkafka/src/rdvarint.c
-    rdkafka/src/snappy.c
-    rdkafka/src/tinycthread.c
-    rdkafka/src/xxhash.c
-    rdkafka/src/lz4.c
-    rdkafka/src/lz4frame.c
-    rdkafka/src/lz4hc.c
-	rdkafka/src-cpp/ConfImpl.cpp
-    rdkafka/src-cpp/ConsumerImpl.cpp
-    rdkafka/src-cpp/HandleImpl.cpp
-    rdkafka/src-cpp/KafkaConsumerImpl.cpp
-    rdkafka/src-cpp/MessageImpl.cpp
-    rdkafka/src-cpp/MetadataImpl.cpp
-    rdkafka/src-cpp/ProducerImpl.cpp
-    rdkafka/src-cpp/QueueImpl.cpp
-    rdkafka/src-cpp/RdKafka.cpp
-    rdkafka/src-cpp/TopicImpl.cpp
-    rdkafka/src-cpp/TopicPartitionImpl.cpp
+    librdkafka/src/crc32c.c
+    librdkafka/src/rdaddr.c
+    librdkafka/src/rdavl.c
+    librdkafka/src/rdbuf.c
+    librdkafka/src/rdcrc32.c
+    librdkafka/src/rdkafka.c
+    librdkafka/src/rdkafka_assignor.c
+    librdkafka/src/rdkafka_broker.c
+    librdkafka/src/rdkafka_buf.c
+    librdkafka/src/rdkafka_cgrp.c
+    librdkafka/src/rdkafka_conf.c
+    librdkafka/src/rdkafka_event.c
+    librdkafka/src/rdkafka_feature.c
+    librdkafka/src/rdkafka_lz4.c
+    librdkafka/src/rdkafka_metadata.c
+    librdkafka/src/rdkafka_metadata_cache.c
+    librdkafka/src/rdkafka_msg.c
+    librdkafka/src/rdkafka_msgset_reader.c
+    librdkafka/src/rdkafka_msgset_writer.c
+    librdkafka/src/rdkafka_offset.c
+    librdkafka/src/rdkafka_op.c
+    librdkafka/src/rdkafka_partition.c
+    librdkafka/src/rdkafka_pattern.c
+    librdkafka/src/rdkafka_queue.c
+    librdkafka/src/rdkafka_range_assignor.c
+    librdkafka/src/rdkafka_request.c
+    librdkafka/src/rdkafka_roundrobin_assignor.c
+    librdkafka/src/rdkafka_sasl.c
+    librdkafka/src/rdkafka_sasl_plain.c
+    librdkafka/src/rdkafka_subscription.c
+    librdkafka/src/rdkafka_timer.c
+    librdkafka/src/rdkafka_topic.c
+    librdkafka/src/rdkafka_transport.c
+    librdkafka/src/rdkafka_interceptor.c
+    librdkafka/src/rdlist.c
+    librdkafka/src/rdlog.c
+    librdkafka/src/rdports.c
+    librdkafka/src/rdrand.c
+    librdkafka/src/rdregex.c
+    librdkafka/src/rdstring.c
+    librdkafka/src/rdunittest.c
+    librdkafka/src/rdvarint.c
+    librdkafka/src/snappy.c
+    librdkafka/src/tinycthread.c
+    librdkafka/src/xxhash.c
+    librdkafka/src/lz4.c
+    librdkafka/src/lz4frame.c
+    librdkafka/src/lz4hc.c
+	librdkafka/src-cpp/ConfImpl.cpp
+    librdkafka/src-cpp/ConsumerImpl.cpp
+    librdkafka/src-cpp/HandleImpl.cpp
+    librdkafka/src-cpp/KafkaConsumerImpl.cpp
+    librdkafka/src-cpp/MessageImpl.cpp
+    librdkafka/src-cpp/MetadataImpl.cpp
+    librdkafka/src-cpp/ProducerImpl.cpp
+    librdkafka/src-cpp/QueueImpl.cpp
+    librdkafka/src-cpp/RdKafka.cpp
+    librdkafka/src-cpp/TopicImpl.cpp
+    librdkafka/src-cpp/TopicPartitionImpl.cpp
 
 )
 
 if(WITH_LIBDL)
-    list(APPEND SRC_FILES rdkafka/src/rddl.c)
+    list(APPEND SRC_FILES librdkafka/src/rddl.c)
 endif()
 
 if(WITH_PLUGINS)
-    list(APPEND SRC_FILES rdkafka/src/rdkafka_plugin.c)
+    list(APPEND SRC_FILES librdkafka/src/rdkafka_plugin.c)
 endif()
 
 if(WITH_SASL_SCRAM)
-  list(APPEND SRC_FILES rdkafka/src/rdkafka_sasl_win32.c)
+  list(APPEND SRC_FILES librdkafka/src/rdkafka_sasl_win32.c)
 elseif(WITH_SASL_CYRUS)
-  list(APPEND SRC_FILES rdkafka/src/rdkafka_sasl_cyrus.c)
+  list(APPEND SRC_FILES librdkafka/src/rdkafka_sasl_cyrus.c)
 endif()
 
 if(WITH_ZLIB)
-  list(APPEND SRC_FILES rdkafka/src/rdgz.c)
+  list(APPEND SRC_FILES librdkafka/src/rdgz.c)
 endif()
 
 if(NOT HAVE_REGEX)
-  list(APPEND SRC_FILES rdkafka/src/regexp.c)
+  list(APPEND SRC_FILES librdkafka/src/regexp.c)
 endif()
 
 add_definitions(-DLIBRDKAFKA_STATICLIB)
 
 
-add_library(rdkafka ${SRC_FILES})
+add_library(librdkafka ${SRC_FILES})
 
 
 
-install (TARGETS rdkafka
+install (TARGETS librdkafka
          ARCHIVE DESTINATION lib COMPONENT SF3rdParties
          LIBRARY DESTINATION lib COMPONENT SF3rdParties
          RUNTIME DESTINATION bin COMPONENT SF3rdParties)
