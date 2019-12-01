@@ -40,13 +40,7 @@ extern "C" {
 #include "../src/rdkafka.h"
 }
 
-#ifdef _MSC_VER
-/* Visual Studio */
-#include "../src/win32_config.h"
-#else
-/* POSIX / UNIX based systems */
-#include "../config.h" /* mklove output */
-#endif
+#include "../../rdkafka_config.h"
 
 #ifdef _MSC_VER
 typedef int mode_t;

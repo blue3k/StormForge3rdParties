@@ -35,7 +35,7 @@
 extern "C" {
 #ifdef _MSC_VER
 /* Win32/Visual Studio */
-#include "../src/win32_config.h"
+#include "../../rdkafka_config.h"
 #include "../src/rdwin32.h"
 #else
 #include "../config.h"

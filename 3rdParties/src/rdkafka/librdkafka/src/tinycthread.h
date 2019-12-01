@@ -26,11 +26,7 @@ freely, subject to the following restrictions:
 #define _TINYCTHREAD_H_
 
 /* Include config to know if C11 threads are available */
-#ifdef _MSC_VER
-#include "win32_config.h"
-#else
-#include "../config.h"
-#endif
+#include "../../rdkafka_config.h"
 
 #if WITH_C11THREADS
 #include <threads.h>
