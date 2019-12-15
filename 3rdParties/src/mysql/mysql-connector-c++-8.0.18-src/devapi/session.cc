@@ -409,7 +409,7 @@ template <typename C>
 inline
 void from_str(mysqlx::string &to, const std::basic_string<C> &from)
 {
-  to = cdk::string(from);
+	to = cdk::string(from);
 }
 
 

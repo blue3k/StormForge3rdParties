@@ -134,7 +134,7 @@ public:
 
   string() {}
   string(const string&) = default;
-  string(string&&) = default;
+  string(string&& other) = default;
 
   string& operator=(const string&) = default;
   string& operator=(string&&) = default;
