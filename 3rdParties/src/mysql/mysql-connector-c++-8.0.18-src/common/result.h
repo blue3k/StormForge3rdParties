@@ -624,17 +624,13 @@ public:
     if (m_mdata && pos >= m_mdata->col_count())
       throw std::out_of_range("row column");
 
-    try {
-      return m_vals.at(pos);
-    }
-    catch (const std::out_of_range&)
-    {
-      if (!m_mdata)
-        throw;
-      const Format_info &fi = m_mdata->get_format(pos);
-      convert_at(pos, fi);
-      return m_vals.at(pos);
-    }
+    auto itFound = m_vals.find(pos);
+	if (itFound != m_vals.end())
+		return itFound->second;
+
+	const Format_info &fi = m_mdata->get_format(pos);
+	convert_at(pos, fi);
+	return m_vals.at(pos);
   }
 
   void set(col_count_t pos, const Value &val)
@@ -650,18 +646,16 @@ private:
   {
     Buffer *raw = nullptr;
 
-    try {
-      raw = &m_data.at(pos);
-    }
-    catch (const std::out_of_range&)
-    {}
-
-    if (!raw || 0 == raw->size())
-    {
+	auto itFound = m_data.find(pos);
+	if (itFound == m_data.end() || itFound->second.size() == 0)
+	{
       // Null value
       m_vals.emplace(pos, Value());
       return;
     }
+
+	raw = &itFound->second;
+
 
     /*
       Call static function VAL::Access:mk() to construct VAL instance from
