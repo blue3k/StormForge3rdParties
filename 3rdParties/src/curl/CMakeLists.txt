@@ -23,6 +23,7 @@ set(SRC_FILES
     curl/include/curl/stdcheaders.h
     curl/include/curl/system.h
     curl/include/curl/typecheck-gcc.h
+	curl/include/curl/urlapi.h
     curl/lib/amigaos.h
     curl/lib/arpa_telnet.h
     curl/lib/asyn.h
@@ -99,7 +100,6 @@ set(SRC_FILES
     curl/lib/nonblock.h
     curl/lib/parsedate.h
     curl/lib/pingpong.h
-    curl/lib/pipeline.h
     curl/lib/pop3.h
     curl/lib/progress.h
     curl/lib/rand.h
@@ -117,7 +117,6 @@ set(SRC_FILES
     curl/lib/socks.h
     curl/lib/speedcheck.h
     curl/lib/splay.h
-    curl/lib/ssh.h
     curl/lib/strcase.h
     curl/lib/strdup.h
     curl/lib/strerror.h
@@ -133,9 +132,6 @@ set(SRC_FILES
     curl/lib/vauth/digest.h
     curl/lib/vauth/ntlm.h
     curl/lib/vauth/vauth.h
-    curl/lib/vtls/axtls.h
-    curl/lib/vtls/cyassl.h
-    curl/lib/vtls/darwinssl.h
     curl/lib/vtls/gskit.h
     curl/lib/vtls/gtls.h
     curl/lib/vtls/mbedtls.h
@@ -218,7 +214,6 @@ set(SRC_FILES
     curl/lib/openldap.c
     curl/lib/parsedate.c
     curl/lib/pingpong.c
-    curl/lib/pipeline.c
     curl/lib/pop3.c
     curl/lib/progress.c
     curl/lib/rand.c
@@ -235,7 +230,6 @@ set(SRC_FILES
     curl/lib/socks_sspi.c
     curl/lib/speedcheck.c
     curl/lib/splay.c
-    curl/lib/ssh.c
     curl/lib/strcase.c
     curl/lib/strdup.c
     curl/lib/strerror.c
@@ -260,9 +254,6 @@ set(SRC_FILES
     curl/lib/vauth/spnego_sspi.c
     curl/lib/vauth/vauth.c
     curl/lib/version.c
-    curl/lib/vtls/axtls.c
-    curl/lib/vtls/cyassl.c
-    curl/lib/vtls/darwinssl.c
     curl/lib/vtls/gskit.c
     curl/lib/vtls/gtls.c
     curl/lib/vtls/mbedtls.c
@@ -278,6 +269,8 @@ set(SRC_FILES
 )
 
 
+add_definitions(-DCURL_STATICLIB)
+add_definitions(-DHAVE_CONFIG_H)
 
 
 add_library(curl ${SRC_FILES})

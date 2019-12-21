@@ -62,7 +62,7 @@
  * configuration file for platforms which lack config tool.
  */
 
-#ifdef HAVE_CONFIG_H
+#if 1 //#ifdef HAVE_CONFIG_H
 
 #include "curl_config.h"
 

@@ -3,6 +3,7 @@
 #include <playfab/PlayFabCurlHttpPlugin.h>
 #include <playfab/PlayFabSettings.h>
 #include <curl/curl.h>
+#include <curl/stdcheaders.h>
 
 #include <stdexcept>
 

@@ -19,6 +19,37 @@
 #define OS "Linux"
 #endif
 
+
+/* ---------------------------------------------------------------- */
+/*                            TYPE SIZES                            */
+/* ---------------------------------------------------------------- */
+
+/* Define to the size of `int', as computed by sizeof. */
+#define SIZEOF_INT 4
+
+/* Define to the size of `long double', as computed by sizeof. */
+#define SIZEOF_LONG_DOUBLE 16
+
+/* Define to the size of `long long', as computed by sizeof. */
+/* #define SIZEOF_LONG_LONG 8 */
+
+/* Define to the size of `short', as computed by sizeof. */
+#define SIZEOF_SHORT 2
+
+/* Define to the size of `long', as computed by sizeof. */
+#define SIZEOF_LONG 4
+
+/* Define to the size of `size_t', as computed by sizeof. */
+#if SIZE_MAX >= ULLONG_MAX
+#  define SIZEOF_SIZE_T 8
+#else
+#  define SIZEOF_SIZE_T 4
+#endif
+
+/* Define to the size of `curl_off_t', as computed by sizeof. */
+#define SIZEOF_CURL_OFF_T 8
+
+
 #if defined(_WIN32) || defined(_WIN64)
 #define STDC_HEADERS            1
 #define HAVE_WINDOWS_H          1
@@ -42,6 +73,7 @@
 #    define ssize_t int
 #  endif
 #endif
+
 
 /* Define if struct sockaddr_in6 has the sin6_scope_id member. */
 #define HAVE_SOCKADDR_IN6_SIN6_SCOPE_ID 1
@@ -164,14 +196,6 @@ This is present in OpenSSL versions after 0.9.6b */
 
 #define RETSIGTYPE void
 
-#define SIZEOF_INT              4
-#define SIZEOF_SHORT            2
-
-#if SIZE_MAX >= ULLONG_MAX
-#define SIZEOF_SIZE_T           8
-#else
-#define SIZEOF_SIZE_T           4
-#endif
 
 
 /* Define if you have the gethostname function. */
