@@ -25,6 +25,10 @@ freely, subject to the following restrictions:
 #include "rd.h"
 #include <stdlib.h>
 
+#if defined(_TTHREAD_EMULATE_TIMESPEC_GET_)
+int _tthread_timespec_get(struct timespec *ts, int base);
+#endif
+
 #if !WITH_C11THREADS
 
 /* Platform specific includes */
