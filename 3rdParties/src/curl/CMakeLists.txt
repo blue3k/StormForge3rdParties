@@ -153,20 +153,29 @@ set(SRC_FILES
     curl/lib/content_encoding.c
     curl/lib/cookie.c
     curl/lib/curl_addrinfo.c
+	curl/lib/curl_ctype.c
+	curl/lib/curl_ctype.h
     curl/lib/curl_des.c
     curl/lib/curl_endian.c
     curl/lib/curl_fnmatch.c
     curl/lib/curl_gethostname.c
+	curl/lib/curl_get_line.c
+	curl/lib/curl_get_line.h
     curl/lib/curl_gssapi.c
     curl/lib/curl_memrchr.c
     curl/lib/curl_multibyte.c
     curl/lib/curl_ntlm_core.c
     curl/lib/curl_ntlm_wb.c
     curl/lib/curl_rtmp.c
+	curl/lib/curl_range.c
+	curl/lib/curl_range.h
+	curl/lib/curl_sha256.h
     curl/lib/curl_sasl.c
     curl/lib/curl_sspi.c
     curl/lib/curl_threads.c
     curl/lib/dict.c
+	curl/lib/doh.c
+	curl/lib/doh.h
     curl/lib/dotdot.c
     curl/lib/easy.c
     curl/lib/escape.c
@@ -204,6 +213,8 @@ set(SRC_FILES
     curl/lib/md4.c
     curl/lib/md5.c
     curl/lib/memdebug.c
+	curl/lib/mime.c
+	curl/lib/mime.h
     curl/lib/mprintf.c
     curl/lib/multi.c
     curl/lib/netrc.c
@@ -221,6 +232,9 @@ set(SRC_FILES
     curl/lib/security.c
     curl/lib/select.c
     curl/lib/sendf.c
+	curl/lib/setopt.c
+	curl/lib/setopt.h
+	curl/lib/sha256.c
     curl/lib/share.c
     curl/lib/slist.c
     curl/lib/smb.c
@@ -236,11 +250,14 @@ set(SRC_FILES
     curl/lib/strtok.c
     curl/lib/strtoofft.c
     curl/lib/system_win32.c
+	curl/lib/socketpair.c
+	curl/lib/socketpair.h
     curl/lib/telnet.c
     curl/lib/tftp.c
     curl/lib/timeval.c
     curl/lib/transfer.c
     curl/lib/url.c
+	curl/lib/urlapi.c
     curl/lib/vauth/cleartext.c
     curl/lib/vauth/cram.c
     curl/lib/vauth/digest.c
