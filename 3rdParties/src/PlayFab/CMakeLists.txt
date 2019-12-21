@@ -117,7 +117,12 @@ set(SRC_FILES
 	XPlatCppSdk/code/source/playfab/QoS/XPlatSocket.cpp
 )
 
+add_definitions(-DENABLE_PLAYFABADMIN_API)
+add_definitions(-DENABLE_PLAYFABSERVER_API)
 
+include_directories(AFTER 
+	XPlatCppSdk/code
+	)
 
 add_library(libPlayFab ${SRC_FILES})
 

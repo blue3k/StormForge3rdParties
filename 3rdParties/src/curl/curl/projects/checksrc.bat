@@ -73,7 +73,7 @@ rem ***************************************************************************
 
 :prerequisites
   rem Check we have Perl in our path
-  echo %PATH% | findstr /I /C:"\Perl" 1>nul
+  perl --version <NUL 1>NUL 2>&1
   if errorlevel 1 (
     rem It isn't so check we have it installed and set the path if it is
     if exist "%SystemDrive%\Perl" (
@@ -113,6 +113,18 @@ rem ***************************************************************************
       for /f "delims=" %%i in ('dir "%SRC_DIR%\lib\vauth\*.h.*" /b 2^>NUL') do @perl "%SRC_DIR%\lib\checksrc.pl" "-D%SRC_DIR%\lib\vauth" "%%i"
     )
 
+    rem Check the lib\vquic directory
+    if exist %SRC_DIR%\lib\vquic (
+      for /f "delims=" %%i in ('dir "%SRC_DIR%\lib\vquic\*.c.*" /b 2^>NUL') do @perl "%SRC_DIR%\lib\checksrc.pl" "-D%SRC_DIR%\lib\vquic" "%%i"
+      for /f "delims=" %%i in ('dir "%SRC_DIR%\lib\vquic\*.h.*" /b 2^>NUL') do @perl "%SRC_DIR%\lib\checksrc.pl" "-D%SRC_DIR%\lib\vquic" "%%i"
+    )
+
+    rem Check the lib\vssh directory
+    if exist %SRC_DIR%\lib\vssh (
+      for /f "delims=" %%i in ('dir "%SRC_DIR%\lib\vssh\*.c.*" /b 2^>NUL') do @perl "%SRC_DIR%\lib\checksrc.pl" "-D%SRC_DIR%\lib\vssh" "%%i"
+      for /f "delims=" %%i in ('dir "%SRC_DIR%\lib\vssh\*.h.*" /b 2^>NUL') do @perl "%SRC_DIR%\lib\checksrc.pl" "-D%SRC_DIR%\lib\vssh" "%%i"
+    )
+
     rem Check the lib\vtls directory
     if exist %SRC_DIR%\lib\vtls (
       for /f "delims=" %%i in ('dir "%SRC_DIR%\lib\vtls\*.c.*" /b 2^>NUL') do @perl "%SRC_DIR%\lib\checksrc.pl" "-D%SRC_DIR%\lib\vtls" "%%i"
@@ -143,7 +155,7 @@ rem ***************************************************************************
   if "%CHECK_EXAMPLES%" == "TRUE" (
     rem Check the docs\examples directory
     if exist %SRC_DIR%\docs\examples (
-      for /f "delims=" %%i in ('dir "%SRC_DIR%\docs\examples\*.c.*" /b 2^>NUL') do @perl "%SRC_DIR%\lib\checksrc.pl" "-D%SRC_DIR%\docs\examples" "%%i"
+      for /f "delims=" %%i in ('dir "%SRC_DIR%\docs\examples\*.c.*" /b 2^>NUL') do @perl "%SRC_DIR%\lib\checksrc.pl" "-D%SRC_DIR%\docs\examples" -ASNPRINTF "%%i"
     )
   )
 

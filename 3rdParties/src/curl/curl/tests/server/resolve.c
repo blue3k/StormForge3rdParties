@@ -5,7 +5,7 @@
  *                            | (__| |_| |  _ <| |___
  *                             \___|\___/|_| \_\_____|
  *
- * Copyright (C) 1998 - 2016, Daniel Stenberg, <daniel@haxx.se>, et al.
+ * Copyright (C) 1998 - 2017, Daniel Stenberg, <daniel@haxx.se>, et al.
  *
  * This software is licensed as described in the file COPYING, which
  * you should have received as part of this distribution. The terms
@@ -57,18 +57,18 @@
 static bool use_ipv6 = FALSE;
 static const char *ipv_inuse = "IPv4";
 
-const char *serverlogfile=""; /* for a util.c function we don't use */
+const char *serverlogfile = ""; /* for a util.c function we don't use */
 
 int main(int argc, char *argv[])
 {
-  int arg=1;
+  int arg = 1;
   const char *host = NULL;
   int rc = 0;
 
   while(argc>arg) {
     if(!strcmp("--version", argv[arg])) {
       printf("resolve IPv4%s\n",
-#ifdef ENABLE_IPV6
+#if defined(CURLRES_IPV6)
              "/IPv6"
 #else
              ""
@@ -95,7 +95,7 @@ int main(int argc, char *argv[])
     puts("Usage: resolve [option] <host>\n"
          " --version\n"
          " --ipv4"
-#ifdef ENABLE_IPV6
+#if defined(CURLRES_IPV6)
          "\n --ipv6"
 #endif
          );
@@ -107,7 +107,7 @@ int main(int argc, char *argv[])
   atexit(win32_cleanup);
 #endif
 
-#ifdef ENABLE_IPV6
+#if defined(CURLRES_IPV6)
   if(use_ipv6) {
     /* Check that the system has IPv6 enabled before checking the resolver */
     curl_socket_t s = socket(PF_INET6, SOCK_DGRAM, 0);

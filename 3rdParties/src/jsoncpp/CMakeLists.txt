@@ -4,13 +4,25 @@
 
 
 include_directories(AFTER 
-	include
+	jsoncpp/include
 )
 
 set(SRC_FILES
-	src/lib_json/json_reader.cpp
-	src/lib_json/json_value.cpp
-	src/lib_json/json_writer.cpp
+	jsoncpp/include/json/allocator.h
+	jsoncpp/include/json/assertions.h
+	jsoncpp/include/json/config.h
+	jsoncpp/include/json/forwards.h
+	jsoncpp/include/json/json.h
+	jsoncpp/include/json/json_features.h
+	jsoncpp/include/json/reader.h
+	jsoncpp/include/json/value.h
+	jsoncpp/include/json/version.h
+	jsoncpp/include/json/writer.h
+	jsoncpp/src/lib_json/json_reader.cpp
+	jsoncpp/src/lib_json/json_tool.h
+	jsoncpp/src/lib_json/json_value.cpp
+	jsoncpp/src/lib_json/json_valueiterator.inl
+	jsoncpp/src/lib_json/json_writer.cpp
 )
 
 

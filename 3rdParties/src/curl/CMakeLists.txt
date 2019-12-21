@@ -1,5 +1,6 @@
 
 
+#https://github.com/curl/curl.git
 
 #set(CURL_STATICLIB ON)
 

@@ -7,7 +7,7 @@
  *                            | (__| |_| |  _ <| |___
  *                             \___|\___/|_| \_\_____|
  *
- * Copyright (C) 1998 - 2014, Daniel Stenberg, <daniel@haxx.se>, et al.
+ * Copyright (C) 1998 - 2019, Daniel Stenberg, <daniel@haxx.se>, et al.
  *
  * This software is licensed as described in the file COPYING, which
  * you should have received as part of this distribution. The terms
@@ -58,11 +58,12 @@ char **__crt0_glob_function(char *arg);
 #ifdef WIN32
 
 CURLcode FindWin32CACert(struct OperationConfig *config,
+                         curl_sslbackend backend,
                          const char *bundle_file);
+struct curl_slist *GetLoadedModulePaths(void);
 
 #endif /* WIN32 */
 
 #endif /* MSDOS || WIN32 */
 
 #endif /* HEADER_CURL_TOOL_DOSWIN_H */
-
