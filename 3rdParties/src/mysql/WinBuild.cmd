@@ -17,7 +17,7 @@ cmake --build . --parallel --target install  -- /p:Configuration=%CMAKE_BUILD_TY
 
 set CMAKE_BUILD_TYPE=RelWithDebInfo
 cd %BUILD_DIR%\%PROCESS_ARCHITECTUR%
-ren cmake --build . --parallel --target install  -- /p:Configuration=%CMAKE_BUILD_TYPE% 
+cmake --build . --parallel --target install  -- /p:Configuration=%CMAKE_BUILD_TYPE% 
 
 
 
