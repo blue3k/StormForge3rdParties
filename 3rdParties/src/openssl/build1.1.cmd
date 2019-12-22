@@ -48,4 +48,4 @@ if "%3" == "build" goto build
 :exit
 
 
-pause
+

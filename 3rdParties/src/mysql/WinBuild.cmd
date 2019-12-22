@@ -23,6 +23,3 @@ cmake --build . --parallel --target install  -- /p:Configuration=%CMAKE_BUILD_TY
 
 
 
-
-
-pause
