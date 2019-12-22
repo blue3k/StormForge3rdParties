@@ -41,7 +41,7 @@ if "%3" == "build" goto build
 
 	nmake
 	
-	nmake install
+	nmake install_sw
 
 	cd ..
 
