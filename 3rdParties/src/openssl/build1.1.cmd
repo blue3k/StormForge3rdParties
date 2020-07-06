@@ -3,10 +3,13 @@
 cd %~dp0
 
 
+IF '%VCCMAKEGENERATOR%'=='' (
+  call ..\..\FindVC.cmd
+)
+
+
 set BUILD_DIR=%~dp0\buildWindows\build
 set OUTPUT_DIR=%~dp0\buildWIndows
-
-call "%VS140COMNTOOLS%..\..\VC\vcvarsall.bat" %2
 
 
 @if not "%1" == "Win" goto endWin
@@ -22,7 +25,7 @@ rem TODO: add handling for android: android android-armeabi android-mips android
 @if "%2" == "arm64" set CONFIG_TARGET=a Winndroid64
 :endAndroid
 
-@set PATH=%PATH%;"%~dp0..\..\tool\bin\NASM";
+@set PATH=%PATH%;"%~dp0..\nasm\bin";
 
 @echo CONFIG_TARGET=%CONFIG_TARGET%
 @echo BUILD_DIR=%BUILD_DIR%
@@ -32,7 +35,7 @@ if "%3" == "build" goto build
 :config
 
 	@if not exist %BUILD_DIR% mkdir %BUILD_DIR%
-	cd %BUILD_DIR% && call perl %~dp0openssl-1.1.0f\Configure %CONFIG_TARGET% enable-egd enable-ssl3 enable-ssl3-method no-threads --openssldir=%OUTPUT_DIR%\openssl --prefix=%OUTPUT_DIR%\openssl -DNOCRYPT
+	cd %BUILD_DIR% && call perl %~dp0openssl-1.1.1g\Configure %CONFIG_TARGET% enable-egd enable-ssl3 enable-ssl3-method no-threads --openssldir=%OUTPUT_DIR%\openssl --prefix=%OUTPUT_DIR%\openssl -DNOCRYPT
 
 
 :build

@@ -31,7 +31,7 @@ rem TODO: add handling for android: android android-armeabi android-mips android
 	@if not exist %BUILD_DIR% mkdir %BUILD_DIR%
 	cd %BUILD_DIR%
 
-	call perl %~dp0openssl-1.1.0f\Configure %CONFIG_TARGET% enable-egd --openssldir=%OUTPUT_DIR%\openssl --prefix=%OUTPUT_DIR%\openssl
+	call perl %~dp0openssl-1.1.1g\Configure %CONFIG_TARGET% enable-egd --openssldir=%OUTPUT_DIR%\openssl --prefix=%OUTPUT_DIR%\openssl
 
 	nmake
 	
