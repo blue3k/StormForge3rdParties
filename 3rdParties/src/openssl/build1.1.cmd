@@ -36,7 +36,7 @@ if "%3" == "build" goto build
 
 	@if not exist %BUILD_DIR% mkdir %BUILD_DIR%
 	cd %BUILD_DIR% && call perl %~dp0openssl-1.1.1g\Configure %CONFIG_TARGET% enable-egd enable-ssl3 enable-ssl3-method no-threads --openssldir=%OUTPUT_DIR%\openssl --prefix=%OUTPUT_DIR%\openssl -DNOCRYPT
-
+	goto exit
 
 :build
 
