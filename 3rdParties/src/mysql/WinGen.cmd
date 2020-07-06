@@ -15,7 +15,7 @@ if not exist %BUILD_DIR% mkdir %BUILD_DIR%
 
 cd %BUILD_DIR%
 
-cmake ../../mysql-connector-c++-8.0.18-src -G %VCCMAKEGENERATOR% -A %PROCESS_ARCHITECTUR% ^
+cmake ../../mysql-connector-c++-8.0.20-src -G %VCCMAKEGENERATOR% -A %PROCESS_ARCHITECTUR% ^
 	-DCMAKE_INSTALL_PREFIX=../../build%CMAKE_SYSTEM_NAME%/%PROCESS_ARCHITECTUR% -DWITH_SSL=../../../openssl/buildWindows/openssl ^
 	-DCMAKE_GENERATOR_PLATFORM=%PROCESS_ARCHITECTUR% -DBUILD_STATIC=ON
 
