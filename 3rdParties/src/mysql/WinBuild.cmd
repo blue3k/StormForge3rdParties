@@ -21,6 +21,7 @@ cmake --build . --parallel --target install  -- /p:Configuration=%CMAKE_BUILD_TY
 
 mkdir lib64\vs14\Release
 xcopy lib64\vs14\*.lib lib64\vs14\Release /d /y
+xcopy lib64\vs14\*.pdb lib64\vs14\Release /d /y
 
 
 
