@@ -19,9 +19,6 @@ set CMAKE_BUILD_TYPE=RelWithDebInfo
 cd %BUILD_DIR%\%PROCESS_ARCHITECTUR%
 cmake --build . --parallel --target install  -- /p:Configuration=%CMAKE_BUILD_TYPE% 
 
-mkdir lib64\vs14\Release
-xcopy lib64\vs14\*.lib lib64\vs14\Release /d /y
-xcopy lib64\vs14\*.pdb lib64\vs14\Release /d /y
 
 
 
